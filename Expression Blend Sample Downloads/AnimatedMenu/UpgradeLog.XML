@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AnimatedMenu">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\AnimatedMenu\AnimatedMenu.sln">
+</Property><Property Name="User Options File" Value="E:\Expression Blend Sample Downloads\AnimatedMenu\AnimatedMenu.suo">
+</Property><Property Name="Date" Value="Sunday, July 18, 2010">
+</Property><Property Name="Time" Value="16:56 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AnimatedMenu.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AnimatedMenu.suo" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu.suo">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\AnimatedMenu.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\AnimatedMenu.csproj">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\App.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\MainPage.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\MainPage.xaml.cs">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\favicon.ico" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\favicon.ico">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\App.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\App.xaml">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\MainPage.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\AnimatedMenu\Backup\AnimatedMenu\MainPage.xaml">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\AnimatedMenu.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AnimatedMenu" Source="AnimatedMenu\AnimatedMenu.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AnimatedMenu.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AnimatedMenu.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AnimatedMenu" Source="AnimatedMenu\AnimatedMenu.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

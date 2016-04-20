@@ -1,0 +1,56 @@
+﻿<Window 
+  x:Class="ContentControl3D_Demo.DemoWindow"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:jas="clr-namespace:ContentControl3DLib;assembly=ContentControl3DLib"
+  xmlns:local="clr-namespace:ContentControl3D_Demo"
+  Title="ContentControl3D Demo" 
+  Width="404" Height="424" 
+  ResizeMode="NoResize"
+  WindowStartupLocation="CenterScreen"
+  >
+  <Grid Background="DarkGray" MaxWidth="400" MaxHeight="400">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    
+    <jas:ContentControl3D 
+      x:Name="contentCtrl3D" 
+      BackContent="This is the back side"
+      >
+      <!--
+      Put a user control on the front side of the surface.
+      -->
+      <jas:ContentControl3D.Content>
+        <local:FrontSideControl />
+      </jas:ContentControl3D.Content>
+
+      <!-- 
+      This template explains how to render the BackContent,
+      which appears on the back side of the surface.
+      -->
+      <jas:ContentControl3D.BackContentTemplate>
+        <DataTemplate>
+          <Button 
+            Content="{Binding}" 
+            Command="jas:ContentControl3D.RotateCommand" 
+            Width="200" Height="150"
+            />
+        </DataTemplate>
+      </jas:ContentControl3D.BackContentTemplate>
+    </jas:ContentControl3D>
+    
+    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
+      <TextBlock Text="Animation Length: " VerticalAlignment="Center" />
+      <Slider 
+        Minimum="10" Maximum="2000"
+        Margin="8,0" 
+        VerticalAlignment="Center"
+        Value="{Binding ElementName=contentCtrl3D, Path=AnimationLength}" 
+        Width="230"
+        />
+      <TextBlock Text="{Binding ElementName=contentCtrl3D, Path=AnimationLength}" VerticalAlignment="Center" />
+    </StackPanel>
+  </Grid>
+</Window>

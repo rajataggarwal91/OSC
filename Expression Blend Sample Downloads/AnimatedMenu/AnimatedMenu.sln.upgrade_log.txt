@@ -1,0 +1,16 @@
+------------------------------------------------------------------------------------------------------
+C:\Users\Rajat\Desktop\Expression Blend Sample Downloads\AnimatedMenu\AnimatedMenu\AnimatedMenu.csproj
+------------------------------------------------------------------------------------------------------
+Updating <Include> of <Reference Include="Microsoft.Expression.Interactions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"> from 'Microsoft.Expression.Interactions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' to 'Microsoft.Expression.Interactions'
+Updating <Include> of <Reference Include="System.Windows.Interactivity, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"> from 'System.Windows.Interactivity, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' to 'System.Windows.Interactivity'
+Updating <ExpressionBlendVersion> value from '3.0.1927.0' to '4.0.20525.0'
+Saving file
+
+
+--------------------------------------------------------------------------------------
+C:\Users\Rajat\Desktop\Expression Blend Sample Downloads\AnimatedMenu\AnimatedMenu.sln
+--------------------------------------------------------------------------------------
+Setting solution format header to 'Microsoft Visual Studio Solution File, Format Version 11.00'
+Saving file
+
+

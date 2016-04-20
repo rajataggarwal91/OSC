@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WpfHorseRace">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\WpfHorseRace\WpfHorseRace.sln">
+</Property><Property Name="Date" Value="Saturday, June 19, 2010">
+</Property><Property Name="Time" Value="15:56 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WpfHorseRace.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace.sln">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\WpfHorseRace.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\WpfHorseRace.csproj">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\App.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Window1.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Properties\Resources.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Properties\Resources.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Properties\Settings.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Properties\Settings.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\RaceHorse.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\RaceHorse.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\ValueConverters.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\ValueConverters.cs">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Properties\Settings.settings" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Properties\Resources.resx" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\App.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\App.xaml">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Resources\RacePitBorderStyle.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Resources\RacePitBorderStyle.xaml">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Resources\RaceHorseDataTemplate.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Resources\RaceHorseDataTemplate.xaml">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\Window1.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WpfHorseRace\Backup\WpfHorseRace\Window1.xaml">
+</Event><Event ErrorLevel="1" Project="WpfHorseRace" Source="WpfHorseRace\WpfHorseRace.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\WpfHorseRace.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WpfHorseRace" Source="WpfHorseRace\WpfHorseRace.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WpfHorseRace.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WpfHorseRace.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WpfHorseRace" Source="WpfHorseRace\WpfHorseRace.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,60 @@
+
+
+       	 OSC Java Seminar
+	(29th Aug and 30th Aug)
+	  3:00 to 5:00 pm
+	
+What we will be  doing in this seminar
+
+Theory:
+
+JVM
+Difference between IDE, Framework and Language
+
+DAY 1
+Basic syntax
+classes and objects
+
+Program list:
+1. Hello World program -- (import, println,running,set as main project, use of ctrl+space and shift+alt+f)
+2. Program for if,for 
+3. dynamic allocation using new for arrays
+4. Input BufferedReader program , usage of import
+5. class program and creation of objects 
+6. Access control
+7. use of constructor 
+8. String Program 
+
+
+DAY 2
+Interface, Inheritence, Overriding, Multithreading, Exception handling
+
+10. Inheritence
+11. Overriding, abstract classes
+12. Package
+13. Interface
+14. Exception Handling
+15. Multithreading
+16. Applet
+ 	
+
+Points to note:
+
+ 1. As we will be deficit of TIME, we need to go very very fast. So be prepared before u come.
+ 2. Try to understand what classes are. That will really help if you haven't used Java or C++ earlier.
+ 3. It will be assumed that all the participants have sufficient knowledge of atleast basic C. 
+ 4. It is not necessary that participants know C++ before they can go for Java but prior knowledge of C++ will definitely help.
+ 5. All the programs and description will be taken from THE COMPLETE REFERENCE- Herbert Schildt.
+ 6. Java is very vast and we will include only core Java in our seminar but it will build a platform from where you can learn new things more easily and speedily. 
+ 7. People interested in learning J2ME or J2EE can come directly to us during free time.
+ 8. Presentation material will be provided to you beforehand.
+ 9. if there are any queries mail them to rajataggarwal91@gmail.com
+
+Deliverables
+
+1. Project with java files
+2. Netbeans IDE
+3. Java 2 complete reference
+4. SCJP book
+
+

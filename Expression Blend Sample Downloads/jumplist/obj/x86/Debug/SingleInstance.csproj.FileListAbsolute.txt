@@ -1,0 +1,122 @@
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\SingleInstance.exe
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\SingleInstance.pdb
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\System.Windows.Interactivity.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\WPFToolkit.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\System.Windows.Interactivity.xml
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\WPFToolkit.pdb
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\MainWindow.baml
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\MainWindow.g.cs
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\SingleInstance_MarkupCompile.cache
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\SingleInstance.g.resources
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\SingleInstance.Properties.Resources.resources
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\ResGen.read.1.tlog
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\ResGen.write.1.tlog
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\SingleInstance.exe
+D:\Projects\TechFriday\SingleInstance\SingleInstance\obj\x86\Debug\SingleInstance.pdb
+E:\jumplist\obj\x86\Debug\SingleInstance.exe
+E:\jumplist\obj\x86\Debug\SingleInstance.pdb
+E:\jumplist\bin\Debug\SingleInstance.exe
+E:\jumplist\bin\Debug\SingleInstance.pdb
+E:\jumplist\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\jumplist\bin\Debug\System.Windows.Interactivity.dll
+E:\jumplist\bin\Debug\WPFToolkit.dll
+E:\jumplist\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\jumplist\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\jumplist\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+E:\jumplist\bin\Debug\System.Windows.Interactivity.xml
+E:\jumplist\bin\Debug\WPFToolkit.pdb
+E:\jumplist\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+E:\jumplist\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\jumplist\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\jumplist\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\jumplist\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\jumplist\obj\x86\Debug\MainWindow.baml
+E:\jumplist\obj\x86\Debug\MainWindow.g.cs
+E:\jumplist\obj\x86\Debug\SingleInstance_MarkupCompile.cache
+E:\jumplist\obj\x86\Debug\SingleInstance.g.resources
+E:\jumplist\obj\x86\Debug\SingleInstance.Properties.Resources.resources
+E:\jumplist\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\jumplist\obj\x86\Debug\ResGen.read.1.tlog
+E:\jumplist\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\jumplist\obj\x86\Debug\ResGen.write.1.tlog
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\SingleInstance.exe
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\SingleInstance.pdb
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\SingleInstance.exe
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\SingleInstance.pdb
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\System.Windows.Interactivity.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\WPFToolkit.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\System.Windows.Interactivity.xml
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\WPFToolkit.pdb
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\MainWindow.baml
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\MainWindow.g.cs
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\SingleInstance_MarkupCompile.cache
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\SingleInstance.g.resources
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\SingleInstance.Properties.Resources.resources
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\ResGen.read.1.tlog
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Expression Blend Sample Downloads\jumplist\obj\x86\Debug\ResGen.write.1.tlog

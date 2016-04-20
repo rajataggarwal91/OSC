@@ -1,0 +1,25 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="GLASS_WINDOW.SearchWin"
+	x:Name="Window"
+	Title="SearchWin"
+	UseLayoutRounding="True"
+	Width="654" Height="497">
+	<Window.Background>
+		<LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+			<GradientStop Color="Black" Offset="1"/>
+			<GradientStop Color="White"/>
+		</LinearGradientBrush>
+	</Window.Background>
+
+	<Grid x:Name="LayoutRoot" DataContext="{Binding}">
+        <Grid.ContextMenu>
+            <ContextMenu DataContext="{Binding}" />
+        </Grid.ContextMenu>
+        <Label Content="Search Word :" HorizontalAlignment="Left" Height="27" Margin="92,46,0,0" VerticalAlignment="Top" Width="142" FontFamily="Lucida Handwriting" FontSize="16" Foreground="Black" FontWeight="Bold"/>
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="253,42,0,0" Name="tbBox" VerticalAlignment="Top" Width="169" FontFamily="Lucida Handwriting" FontSize="16" Background="{x:Null}" />
+        <TextBlock Height="210" HorizontalAlignment="Left" Margin="70,159,0,0" Name="tbBlock" Text="" VerticalAlignment="Top" Width="478" FontFamily="Lucida Handwriting" FontSize="16" />
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Right" Height="28" Margin="0,44,88,0" VerticalAlignment="Top" Width="98" Click="btnSearch_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\bin\Debug\PopupMenu.exe
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\bin\Debug\PopupMenu.pdb
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\MainWindow.baml
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\MainWindow.g.cs
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\App.g.cs
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu_MarkupCompile.cache
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.g.resources
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.Properties.Resources.resources
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.exe
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.pdb
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.exe
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.pdb
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\bin\Debug\PopupMenu.exe
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\bin\Debug\PopupMenu.pdb
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\MainWindow.baml
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\MainWindow.g.cs
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\App.g.cs
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu_MarkupCompile.cache
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.g.resources
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.Properties.Resources.resources
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.exe
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.pdb
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\MainWindow.baml
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\MainWindow.g.cs
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\App.g.cs
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu_MarkupCompile.cache
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.g.resources
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\PopupMenu.Properties.Resources.resources
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Expression Blend Sample Downloads\Pop Up\27WPF-PopupMenu\PopupMenu\obj\x86\Debug\GenerateResource.write.1.tlog

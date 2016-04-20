@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="Spritehand.FarseerHelper.PhysicsJoint"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="20" Height="20">
+    <Canvas x:Name="LayoutRoot">
+    	<Ellipse Height="15" Width="15" Fill="#4CFFFFFF" Stroke="#FF000000" Canvas.Top="2.562" Canvas.Left="2.562"/>
+    	<Path Height="4.625" Width="5" Canvas.Left="0.563" Canvas.Top="0.562" Fill="#FFFFFFFF" Stretch="Fill" Stroke="#FF000000" Data="M1.25,0.875 L5.25,4.5"/>
+    	<Path Height="4.625" Width="5" Fill="#FFFFFFFF" Stretch="Fill" Stroke="#FF000000" Data="M1.25,0.875 L5.25,4.5" Canvas.Left="14.25" Canvas.Top="14.75"/>
+
+    </Canvas>
+</UserControl>

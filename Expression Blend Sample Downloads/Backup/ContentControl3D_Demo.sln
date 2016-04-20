@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentControl3D_Demo", "ContentControl3D_Demo\ContentControl3D_Demo.csproj", "{AA4CC09D-786D-4B7C-824B-57036ECAFBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentControl3DLib", "ContentControl3DLib\ContentControl3DLib.csproj", "{F7380B1F-3A9A-4F26-A04D-73B6EBABEB63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4CC09D-786D-4B7C-824B-57036ECAFBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4CC09D-786D-4B7C-824B-57036ECAFBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4CC09D-786D-4B7C-824B-57036ECAFBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4CC09D-786D-4B7C-824B-57036ECAFBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7380B1F-3A9A-4F26-A04D-73B6EBABEB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7380B1F-3A9A-4F26-A04D-73B6EBABEB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7380B1F-3A9A-4F26-A04D-73B6EBABEB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7380B1F-3A9A-4F26-A04D-73B6EBABEB63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

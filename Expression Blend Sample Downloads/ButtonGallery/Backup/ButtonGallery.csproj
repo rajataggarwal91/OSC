@@ -1,0 +1,80 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)'==''">Debug</Configuration>
+    <DefaultClrNameSpace>Player</DefaultClrNameSpace>
+    <AssemblyName>Player</AssemblyName>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
+    <OutputType>Library</OutputType>
+    <StartPageUrl>default.html</StartPageUrl>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ProjectGuid>{A90FF771-9887-44F6-9246-F8F244A395FF}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="Default.html" />
+    <None Include="design_files\buttons_rect2.design" />
+    <None Include="design_files\buttons_sq2.design" />
+    <None Include="design_files\button_arrow.design" />
+    <None Include="design_files\button_blue.design" />
+    <None Include="design_files\button_green.design" />
+    <None Include="design_files\button_mail.design" />
+    <None Include="design_files\button_minus.design" />
+    <None Include="design_files\button_orange.design" />
+    <None Include="design_files\button_paw.design" />
+    <None Include="design_files\button_plus.design" />
+    <None Include="design_files\button_purple.design" />
+    <None Include="design_files\button_red.design" />
+    <None Include="design_files\button_smiley.design" />
+    <None Include="design_files\button_x.design" />
+    <None Include="design_files\button_yellow.design" />
+    <None Include="design_files\mushroombutton.design" />
+    <None Include="design_files\orange.design" />
+    <None Include="design_files\UI.design" />
+    <None Include="Silverlight.js" />
+    <None Include="Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Page.xaml.js" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62240</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Content Include="Default_html.js" />
+    <Content Include="images\lens.PNG" />
+    <Content Include="images\lens_small.PNG" />
+    <Content Include="js\Button.js" />
+    <Content Include="sounds\Click_1.wma" />
+    <Content Include="sounds\Click_2.wma" />
+    <Content Include="sounds\Click_3.wma" />
+    <Content Include="sounds\Click_5.wma" />
+    <Content Include="sounds\Focus.wma" />
+    <Content Include="sounds\Over_1.wma" />
+    <Content Include="sounds\Over_2.wma" />
+    <Content Include="sounds\Over_3.wma" />
+    <Content Include="sounds\Over_5.wma" />
+    <Content Include="sounds\Shutter.wma" />
+  </ItemGroup>
+</Project>

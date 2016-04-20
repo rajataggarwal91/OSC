@@ -1,0 +1,39 @@
+REPORT
+
+29 Aug 2011
+Time: 3:00 to 4:30
+and
+30 Aug 2011
+Time: 2:15 to 4:30
+
+
+Topics covered:
+DAY 1
+Classes
+Input and Output on console in Java
+Implementation of classes in Java
+Constructors
+
+DAY 2
+Abstract classes
+Method Overloading
+Method Overriding
+Inheritence
+Interfaces
+Exception Handling
+Multithreading
+Applets
+
+Seminar held by: Rajat Aggarwal and Madhuri Vidhani
+
+Seminar attendees
+DAY 1:
+
+DAY 2:
+
+Prateek Jaipurya	jaipuriapratik@gmail.com
+Rahul Agrawal		rkagrawal92@gmail.com
+Anshul Agarwal		a.anshul215@gmail.com
+Anurag Katey		kateyanurag@gmail.com
+Nilesh Agrawal		nlshagrawal608@gmail.com
+

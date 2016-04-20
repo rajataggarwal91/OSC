@@ -1,0 +1,25 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:Spritehand_PhysicsBehaviors="clr-namespace:Spritehand.PhysicsBehaviors;assembly=Spritehand.PhysicsBehaviors" x:Class="DemoBehaviors4.ucRock" 
+    Width="282" Height="144">
+    <Canvas x:Name="LayoutRoot" Width="282" Height="144">
+    	<Rectangle x:Name="rectHoldBase" Fill="White" Stroke="Black" Height="26" Width="30" Canvas.Left="119" Canvas.Top="59">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsObjectBehavior IsStatic="True"/>
+    		</i:Interaction.Behaviors>
+    	</Rectangle>
+    	<Canvas x:Name="cnvAsteroid" Height="144" Width="282">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsObjectBehavior IsStatic="False" BoundaryElement="imgAsteroid"/>
+    		</i:Interaction.Behaviors>
+    		<Image x:Name="imgAsteroid" Canvas.Top="0" Source="/asteroid.png" Stretch="None" Width="282" Height="144"/>
+
+    	</Canvas>
+    	<Ellipse Fill="White" Stroke="Black" Height="26" Width="30" Canvas.Left="119" Canvas.Top="59">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsJointBehavior BodyOne="cnvAsteroid" BodyTwo="rectHoldBase" CollisionGroup="1"/>
+    		</i:Interaction.Behaviors>
+    	</Ellipse>
+    </Canvas>
+</UserControl>

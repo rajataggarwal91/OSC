@@ -1,0 +1,85 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ee="http://schemas.microsoft.com/expression/2010/effects"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="MainWindow"
+	x:Name="Window"
+	Title="Flexible Surface Effect For WPF - A SilverLaw Solutuion 2010"
+	UseLayoutRounding="True"
+	Width="700" Height="480">
+	<Window.Resources>
+		<Storyboard x:Key="sbRippleClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(ee:RippleEffect.Frequency)" Storyboard.TargetName="LayoutRoot">
+				<EasingDoubleKeyFrame KeyTime="0" Value="40"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="30"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(ee:RippleEffect.Magnitude)" Storyboard.TargetName="LayoutRoot">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.02"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Effect).(ee:RippleEffect.Phase)" Storyboard.TargetName="LayoutRoot">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+
+	<Grid x:Name="LayoutRoot" Background="#02642424">
+		<Grid.Effect>
+			<ee:RippleEffect x:Name="myRipple" Frequency="0" Magnitude="0" Phase="0"/>
+		</Grid.Effect>
+		<Grid x:Name="gdLayer" Background="#02652525">
+			<Grid.RowDefinitions>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+				<RowDefinition/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+			<Grid Grid.ColumnSpan="7" Grid.RowSpan="9" Background="#02FFFFFF">
+				<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Flexible Surface For WPF" VerticalAlignment="Center" FontSize="32"/>
+				<Grid Panel.ZIndex="-1" HorizontalAlignment="Right" Width="150" RenderTransformOrigin="0.5,0.5" Height="150" VerticalAlignment="Top" Margin="0,60,40,0">
+					<Grid.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform Angle="30.027"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Grid.RenderTransform>
+					<Grid.RowDefinitions>
+						<RowDefinition/>
+						<RowDefinition/>
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+					<Ellipse Fill="#FF3F3F89" Stroke="Black" StrokeThickness="0" Margin="6"/>
+					<Ellipse Fill="#FFE28323" Stroke="Black" StrokeThickness="0" Grid.Row="1" Margin="6"/>
+					<Ellipse Fill="#FF2DB22F" Stroke="Black" StrokeThickness="0" Grid.Column="1" Margin="6"/>
+					<Ellipse Fill="#FF7A3C12" Stroke="Black" StrokeThickness="0" Grid.Column="1" Grid.Row="1" Margin="6"/>
+				</Grid>
+				<Button x:Name="btTest" Content="Button" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="158" Margin="0,0,104,66" Height="50"/>
+				<CheckBox x:Name="ckTest" Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="218,0,0,108" FontSize="16" Height="22"/>
+			</Grid>
+			<TextBlock Margin="6,0,0,4" TextWrapping="Wrap" Text="A SilverLaw Solution 2010" VerticalAlignment="Bottom" d:LayoutOverrides="Width" Grid.ColumnSpan="2" HorizontalAlignment="Left" Grid.Row="10" FontSize="10.667"/>
+		</Grid>
+	</Grid>
+</Window>

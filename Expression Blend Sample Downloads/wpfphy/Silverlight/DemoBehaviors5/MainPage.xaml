@@ -1,0 +1,126 @@
+﻿<UserControl x:Class="DemoBehaviors5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+    xmlns:pb="clr-namespace:Spritehand.PhysicsBehaviors;assembly=Spritehand.PhysicsBehaviors" 
+    xmlns:local="clr-namespace:DemoBehaviors5"
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+    <Canvas Margin="0,0,-160,-120">
+        <Canvas x:Name="LayoutRoot" Height="600" Width="800" d:LayoutOverrides="Width, Height, Margin">
+            <i:Interaction.Triggers>
+                <i:EventTrigger>
+                    <pb:PhysicsSoundBehavior Source="/beach.wma" LoopTime="32000"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <i:Interaction.Behaviors>
+                <pb:PhysicsControllerBehavior DebugMode="False" MousePickEnabled="True"/>
+            </i:Interaction.Behaviors>
+            <Image CacheMode="BitmapCache" Height="295" Width="659" Canvas.Left="10" Canvas.Top="3" Source="sky.jpg" Stretch="Fill"/>
+            <Image Height="295" Width="659" Canvas.Left="667" Canvas.Top="3" Source="sky.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5" CacheMode="BitmapCache">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="-1"/>
+                        <SkewTransform AngleX="0" AngleY="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Path Stretch="Fill" CacheMode="BitmapCache" Stroke="Black" Height="431.519" Width="1231" UseLayoutRounding="False" Canvas.Left="83" Canvas.Top="212.481" Data="M114,153 C190.45622,133.19022 257.85629,100.49999 343.36865,93.570648 C425.46054,108.81522 491.78955,134.52354 566,155 C646.28192,136.37137 726.56378,117.74275 806.8457,99.114128 C866.70435,110.20108 885.62701,124.16667 918.01178,143.46196 L1032.5984,129.60326 C1088.4664,115.74456 1114.6902,74.168472 1200.2025,88.027168 C1200.2025,88.027168 1324.9777,130.12184 1324.9777,130.12184 L1384.9777,140.12184 L1480,149 L1528,467 L146,483 L76,165 z">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF305134" Offset="0.004"/>
+                        <GradientStop Color="#FF554522" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+        	<Canvas x:Name="cnvBeachBall" Height="38" Width="39" Canvas.Left="661" Canvas.Top="275">
+        		<i:Interaction.Behaviors>
+        			<pb:PhysicsObjectBehavior Mass="0.2" RestitutionCoefficient="1"/>
+        		</i:Interaction.Behaviors>
+        		<Ellipse Stroke="Black" Height="38" Width="39" CacheMode="BitmapCache">
+        			<Ellipse.Fill>
+        				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        					<GradientStop Color="#FFCDCDCD" Offset="0"/>
+        					<GradientStop Color="White" Offset="1"/>
+        				</LinearGradientBrush>
+        			</Ellipse.Fill>
+        		</Ellipse>
+        		<Path Stretch="Fill" Stroke="Black" Height="36.25" Width="34.093" CacheMode="BitmapCache" UseLayoutRounding="False" Data="M5.219595,19.083334 C5.219595,29.300602 42.213047,36.5 31.719639,36.5 C21.226229,36.5 0.5,29.217268 0.5,19 C0.5,8.782732 20.22596,1.25 30.71937,1.25 C41.21278,1.25 5.219595,8.866066 5.219595,19.083334 z" RenderTransformOrigin="0.5,0.5" Canvas.Left="20.75" Canvas.Top="1">
+        			<Path.Fill>
+        				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        					<GradientStop Color="#FF364CF5" Offset="0"/>
+        					<GradientStop Color="#FF1E2C97" Offset="1"/>
+        				</LinearGradientBrush>
+        			</Path.Fill>
+        			<Path.RenderTransform>
+        				<TransformGroup>
+        					<ScaleTransform ScaleX="-0.5"/>
+        					<SkewTransform AngleX="0" AngleY="0"/>
+        					<RotateTransform Angle="0"/>
+        					<TranslateTransform X="-7.7100000381469727"/>
+        				</TransformGroup>
+        			</Path.RenderTransform>
+        		</Path>
+        		<Path Stretch="Fill" Stroke="Black" Height="38" Width="23.243" CacheMode="BitmapCache" UseLayoutRounding="False" Data="M11.66661,18.666666 C11.66661,28.883934 29.99341,37.5 19.5,37.5 C9.0065899,37.5 0.5,29.217268 0.5,19 C0.5,8.782732 9.0065899,0.5 19.5,0.5 C29.99341,0.5 11.66661,8.4493999 11.66661,18.666666 z">
+        			<Path.Fill>
+        				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        					<GradientStop Color="#FFD02525" Offset="0"/>
+        					<GradientStop Color="#FF761717" Offset="1"/>
+        				</LinearGradientBrush>
+        			</Path.Fill>
+        		</Path>
+        	</Canvas>
+            <Canvas x:Name="cnvAbout" Height="34" Width="224" Canvas.Left="140" Canvas.Top="281" CacheMode="BitmapCache">
+                <i:Interaction.Behaviors>
+                    <pb:PhysicsObjectBehavior Mass="1"/>
+                </i:Interaction.Behaviors>
+                <Rectangle Stroke="Black" RadiusX="10" RadiusY="10" Height="34" Width="212">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE0E0E0" Offset="0"/>
+                            <GradientStop Color="#FF8A8A8A" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock Height="13" Width="191" Canvas.Left="25" Canvas.Top="6" FontSize="13.333" Foreground="White" Text="www.andybeaulieu.com" TextWrapping="Wrap"/>
+            </Canvas>
+            <local:ucSwimsuit Canvas.Left="393" Canvas.Top="195"/>
+            <Rectangle Stroke="#FF0B0667" Height="351" Width="1320" Opacity="0.5" Canvas.Left="3" Canvas.Top="305">
+                <i:Interaction.Behaviors>
+                    <pb:PhysicsFluidContainerBehavior/>
+                </i:Interaction.Behaviors>
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF5DC3E8" Offset="0.004"/>
+                        <GradientStop Color="#FF192661" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Path x:Name="ground" Stretch="Fill" Stroke="Black" Height="409.017" Width="1319.5" UseLayoutRounding="False" Canvas.Left="7" Canvas.Top="254.483" Data="M9,651 L9,256.5 C9,256.5 55.5,244.5 91.5,288 C127.5,331.5 126,546 172.5,571.5 C219,597 714.8764,587.94586 714.8764,587.94586 C714.8764,587.94586 741,265.5 778.5,265.5 C816,265.5 1327.5,264 1327.5,264 L1324.5,663 z" CacheMode="BitmapCache">
+                <i:Interaction.Behaviors>
+                    <pb:PhysicsObjectBehavior IsStatic="True"/>
+                </i:Interaction.Behaviors>
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFD8CCB1" Offset="0.004"/>
+                        <GradientStop Color="#FF4D3D1C" Offset="1"/>
+                        <GradientStop Color="#FFA59062" Offset="0.366"/>
+                        <GradientStop Color="#FF7E6A3E" Offset="0.72"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+        </Canvas>
+        <Rectangle Stroke="Black" Height="52" Width="780" Canvas.Left="14" Canvas.Top="8" RadiusX="22" RadiusY="22" CacheMode="BitmapCache" Opacity="0.5">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF8F3C3" Offset="0"/>
+                    <GradientStop Color="#FFF8F3C3" Offset="1"/>
+                    <GradientStop Color="White" Offset="0.474"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Height="42" Width="764" Opacity="0.5" Canvas.Left="33" Canvas.Top="16" FontSize="12" FontWeight="Bold" Foreground="#FF00338C" Text="This is a no-code demo using the Fluid Container Behavior. Also demonstrates creating a Rag Doll with Joints, and using a looping sound (PhysicsSoundBehavior). You can use the mouse to manipulate the objects." TextWrapping="Wrap"/>
+    </Canvas>
+</UserControl>

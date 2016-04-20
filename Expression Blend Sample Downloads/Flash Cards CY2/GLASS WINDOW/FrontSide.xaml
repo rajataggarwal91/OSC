@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="GLASS_WINDOW.FrontSide"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:my3D="clr-namespace:ContentControl3DLib;assembly=ContentControl3DLib"
+             mc:Ignorable="d" 
+             d:DesignHeight="280" d:DesignWidth="456">
+	<Border 
+    Background="AliceBlue"
+    BorderBrush="Gray" 
+    BorderThickness="3" 
+    CornerRadius="6" 
+    Width="404" Height="223"
+    >
+		<Grid Height="230" Width="390">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100*" />
+				<ColumnDefinition Width="272*" />
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="150" />
+				<RowDefinition Height="50" />
+				<RowDefinition Height="8*" />
+			</Grid.RowDefinitions>
+			<TextBlock x:Name="FlipText"
+	   
+        FontWeight="Bold"
+        Foreground="Black"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center" Height="48" Margin="82,72,67,30" Width="223" Grid.ColumnSpan="2" />
+			<Button  Click="Button_Click" Command="my3D:ContentControl3D.RotateCommand"
+		Content="Flip Over"   
+        HorizontalAlignment="Right" 
+        Margin="0,126,172,0"
+        MaxHeight="25" Grid.Column="1" />
+			<Button Content="Previous" Height="202" HorizontalAlignment="Left" Name="btnFlipPrevious" Click="btnFlipPrevious_Click" VerticalAlignment="Top" Width="75" Grid.RowSpan="3" />
+			<Button Content="Next" Height="202" HorizontalAlignment="Left" Margin="197,0,0,0" Name="btnFlipNext" Click="btnFlipNext_Click" VerticalAlignment="Top" Width="75" Grid.RowSpan="3" Grid.Column="1" />
+		</Grid>
+	</Border>
+</UserControl>

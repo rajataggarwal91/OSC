@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DataTemplates">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\Data templates\DataTemplates.sln">
+</Property><Property Name="Date" Value="Saturday, June 19, 2010">
+</Property><Property Name="Time" Value="16:03 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DataTemplates.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates.sln">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\DataTemplates.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\DataTemplates.csproj">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\DataTemplates.csproj.user" Description="Project user file successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\DataTemplates.csproj.user">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\App.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Window1.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\DependencyPropertyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\DependencyPropertyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\EnumToListConverter.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\EnumToListConverter.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\PropertyDataTemplateSelector.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\PropertyDataTemplateSelector.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Properties\Resources.Designer.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Properties\Settings.Designer.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\TypeHelper.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\TypeHelper.cs">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Properties\Settings.settings" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Properties\Resources.resx" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\App.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\App.xaml">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\Window1.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\Data templates\Backup\DataTemplates\Window1.xaml">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\DataTemplates.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DataTemplates" Source="DataTemplates\DataTemplates.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DataTemplates.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DataTemplates.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DataTemplates" Source="DataTemplates\DataTemplates.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

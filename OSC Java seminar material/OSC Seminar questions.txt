@@ -1,0 +1,4 @@
+1. Why is usage of super() needed?
+2. What is difference between Scanner and BufferedReader?
+3. What is virtual function?
+4. 

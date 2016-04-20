@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Demo3.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1020" Height="760" IsTabStop="True" xmlns:Demo3="clr-namespace:Demo3" xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper">
+
+    <StackPanel Orientation="Vertical">
+        <MediaElement x:Name="sndScore" Source="/score.wma" />
+        <Canvas x:Name="LayoutRoot" Width="1020" Height="760" Background="White">
+            <Path Height="393" Width="1009" Canvas.Left="7.5" Canvas.Top="303.5" Stretch="Fill" Stroke="#FF000000" Data="M8,696 L16,304 C16,304 168,328 208,408 C248,488 256,528 264,528 C272,528 304,568 352,560 C400,552 416,536 432,512 C448,488 480,456 480,456 C480,456 528,432 544,440 C560,448 600,472 608,480 C616,488 624,496 640,520 C656,544 640,544 672,560 C704,576 704,584 736,568 C768,552 792,496 800,488 C808,480 824,448 848,440 C872,432 944,432 960,424 C976,416 1016,386 1016,386 L1016,600 L1016,680 L1016,696 z" x:Name="ramp">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDAC479"/>
+                        <GradientStop Color="#FF937B25" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Spritehand_FarseerHelper:PhysicsStaticHolder Height="24" Width="40" Canvas.Left="160" Canvas.Top="512" Body="ramp"/>
+            <Demo3:smileyHead Canvas.Left="176" Canvas.Top="184" x:Name="head1"/>
+            <TextBlock Height="53" Width="405" Canvas.Left="64" Canvas.Top="48" Text="Use the left and right arrow keys to move the foobar around, and get to the star. This demo shows how to add collision detection to physics objects for a game." TextWrapping="Wrap" Foreground="#FF354790"/>
+            <Demo3:starGoal Canvas.Left="666" Canvas.Top="287" x:Name="star"/>
+            <Spritehand_FarseerHelper:PhysicsController Canvas.Left="873" Collision="physicsController1_Collision" TimerLoop="physicsController1_TimerLoop" Initialized="PhysicsController_Initialized" Canvas.Top="24" x:Name="physicsController1" />
+            <Path Height="55.887" Width="59.499" Canvas.Left="916.532" Canvas.Top="44.599" Data="M923,79 C927.19269,84.493874 929.44458,89.666763 935,93 C942.85004,97.710037 951.87891,102.56054 963,97 C974.58014,91.20993 980.09344,83.968163 969,64 C964.37524,55.675419 895.48444,17.365103 923,79 z" Stretch="Fill" Stroke="#FF000000" x:Name="rock">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDAC479"/>
+                        <GradientStop Color="#FF937B25" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+
+            <StackPanel Orientation="Horizontal" Canvas.Top="701" Canvas.Left="9">
+                <TextBlock>Spritehand Physics Helper</TextBlock>
+                <TextBlock Margin="5,0,5,0">|</TextBlock>
+                <HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.spritehand.com" NavigateUri="http://www.spritehand.com" TargetName="_blank" />
+                <TextBlock Margin="5,0,5,0">|</TextBlock>
+                <HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.andybeaulieu.com" NavigateUri="http://www.andybeaulieu.com" TargetName="_blank" />
+            </StackPanel>
+
+
+        </Canvas>
+    </StackPanel>
+</UserControl>

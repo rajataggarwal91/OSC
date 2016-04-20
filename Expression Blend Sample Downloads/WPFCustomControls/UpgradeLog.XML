@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WPFCustomControls">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\WPFCustomControls\WPFCustomControls.sln">
+</Property><Property Name="Date" Value="Monday, June 14, 2010">
+</Property><Property Name="Time" Value="4:17 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WPFCustomControls.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls.sln">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\WPFCustomControls.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\WPFCustomControls.csproj">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Helpers\RelayCommand.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Helpers\RelayCommand.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Presentations\FlippingControl.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Presentations\FlippingControl.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Presentations\ShatteringControl.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Presentations\ShatteringControl.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Properties\Resources.Designer.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Properties\Settings.Designer.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Panels\SliderStackPanel.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Panels\SliderStackPanel.cs">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Properties\Settings.settings" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Properties\Resources.resx" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\Themes\Generic.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\WPFCustomControls\Themes\Generic.xaml">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\WPFCustomControls.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WPFCustomControls" Source="WPFCustomControls\WPFCustomControls.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\TestClient.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\TestClient.csproj">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\App.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\Properties\Resources.Designer.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\Properties\Settings.Designer.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\ShatteringControlWindow.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\ShatteringControlWindow.xaml.cs">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\FlippingControlWindow.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\FlippingControlWindow.xaml.cs">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\Properties\Settings.settings" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\Properties\Resources.resx" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\App.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\App.xaml">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\Resources\SampleContentResource.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\Resources\SampleContentResource.xaml">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\ShatteringControlWindow.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\ShatteringControlWindow.xaml">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\FlippingControlWindow.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\WPFCustomControls\Backup\TestClient\FlippingControlWindow.xaml">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\TestClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestClient" Source="TestClient\TestClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WPFCustomControls.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WPFCustomControls.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WPFCustomControls" Source="WPFCustomControls\WPFCustomControls.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TestClient" Source="TestClient\TestClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

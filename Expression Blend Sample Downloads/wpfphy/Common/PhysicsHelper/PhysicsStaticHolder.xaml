@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="Spritehand.FarseerHelper.PhysicsStaticHolder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="20" Height="20">
+    <Canvas x:Name="LayoutRoot">
+    	<Path Height="14.562" Width="14.684" RenderTransformOrigin="0.5,0.5" Canvas.Left="3.066" Canvas.Top="2.938" Data="M2.4687502,10.5075 L5.75,10.5075 L9.7929688,17.034843 L14.035156,10.5075 L16.730469,10.5075 L11.1875,19.120781 L16.871094,28.32 L13.578125,28.32 L9.3125,21.452812 L4.8945313,28.32 L2.1875,28.32 L7.9414063,19.378593 z" Fill="#FFFFFFFF" Stretch="Fill" Stroke="#FF000000">
+    	</Path>
+    </Canvas>
+</UserControl>

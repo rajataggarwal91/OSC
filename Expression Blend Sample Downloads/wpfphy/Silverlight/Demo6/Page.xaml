@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="Demo6.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1020" Height="760" IsTabStop="True" Background="#FF8ACADF" xmlns:Demo6="clr-namespace:Demo6" xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper" BorderThickness="2,2,2,2">
+
+    <StackPanel Orientation="Vertical">
+        <MediaElement x:Name="sndScore" Source="/score.wma" />
+        <Canvas x:Name="LayoutRoot" Width="1020" Height="700">
+            <Demo6:starGoal Canvas.Left="3323" Canvas.Top="411" x:Name="star"/>
+            <Spritehand_FarseerHelper:PhysicsController MousePickEnabled="True" DebugMode="False" TimeStep="0.02" GravityVertical="500"  Canvas.Left="873" Collision="physicsController1_Collision" TimerLoop="physicsController1_TimerLoop" Initialized="PhysicsController_Initialized" Canvas.Top="24" x:Name="physicsController1">
+            </Spritehand_FarseerHelper:PhysicsController>
+            <Spritehand_FarseerHelper:CameraController x:Name="cameraController1" Canvas.Left="351" Canvas.Top="284" Target="cnvBody" ZoomSpeed="0.010"/>
+            <Path Height="645" Width="160.838" Canvas.Left="-103.5" Canvas.Top="71.5" Data="M-78,29 L64,29 C64,29 83,51 78,55 C73,59 46.000229,65 46.000229,65 C46.000229,65 37.000214,96 42.000221,102 C47.000229,108 62.000259,120 65.000267,122 C68.000275,124 56.000248,157 56.000248,157 C56.000248,157 44.000225,168 40.000217,205 C36.00021,242 35.00021,267 35.00021,271 C35.00021,275 35.00021,312 35.00021,312 L34.000206,380 L29.806959,405.91473 L16.887762,432.87286 L22.000185,491 L19.000179,590 L19.000179,665 L17.000175,672 L-81.000008,673 z" Stretch="Fill" x:Name="cliff">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.528,-0.005" StartPoint="0.484,0.995">
+                        <GradientStop Color="#FF99812D"/>
+                        <GradientStop Color="#FFBBA65D" Offset="1"/>
+                        <GradientStop Color="#FFEED278" Offset="0.50400000810623169"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Demo6:ucObstacle x:Name="ucObstacle1" Height="300" Width="400" Canvas.Left="0" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle2" Height="300" Width="400" Canvas.Left="400" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle3" Height="300" Width="400" Canvas.Left="800" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle4" Height="300" Width="400" Canvas.Left="1200" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle5" Height="300" Width="400" Canvas.Left="1600" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle6" Height="300" Width="400" Canvas.Left="2000" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle7" Height="300" Width="400" Canvas.Left="2400" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle8" Height="300" Width="400" Canvas.Left="2800" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle9" Height="300" Width="400" Canvas.Left="3200" Canvas.Top="412"/>
+            <Demo6:ucObstacle x:Name="ucObstacle10" Height="300" Width="400" Canvas.Left="3600" Canvas.Top="412"/>
+            <TextBlock Height="85" Width="326" Canvas.Left="32.5" Canvas.Top="313" Text="Use the left and right arrow keys to move the truck around. The camera controller zooms in when the car slows down, and zooms out when the car speeds up." TextWrapping="Wrap" Foreground="#FF4053C1"/>
+            <Spritehand_FarseerHelper:PhysicsStaticHolder Canvas.Left="-47" Canvas.Top="270" Body="cliff"/>
+            <Canvas Height="60" x:Name="cnvWheelBack" Width="60" Canvas.Left="104" Canvas.Top="415">
+                <Ellipse Height="60" Width="60" Canvas.Left="0" Canvas.Top="0" Stroke="#FF000000">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF000000"/>
+                            <GradientStop Color="#FF4F4949" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Height="40" Width="40" Canvas.Left="10" Canvas.Top="10" Stroke="#FF000000">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FF000000"/>
+                            <GradientStop Color="#FFFFFFFF" Offset="0.545"/>
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Canvas>
+            <Canvas Height="60" x:Name="cnvWheelFront" Width="60" Canvas.Left="204" Canvas.Top="415">
+                <Ellipse Height="60" Width="60" Canvas.Left="0" Canvas.Top="0" Stroke="#FF000000">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF000000"/>
+                            <GradientStop Color="#FF4F4D4D" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Height="40" Width="40" Canvas.Left="10" Canvas.Top="10" Stroke="#FF000000">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FF000000"/>
+                            <GradientStop Color="#FFFFFFFF" Offset="0.562"/>
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Canvas>
+            <Canvas Height="78.667" x:Name="cnvBody" Width="197" Canvas.Left="83.833" Canvas.Top="359.331">
+                <Path Height="79" Width="196" Canvas.Left="1.167" Canvas.Top="-1.331" Data="M84,0.5 L122,1.9999999 L135.5,30.000004 C135.5,30.000004 153.85963,33.320366 168.97168,36.420898 C175.0166,37.661133 180.54199,38.866211 184.16504,39.80957 C185.97656,40.28125 187.3125,40.6875 188,41 C188.6875,41.3125 189.22656,41.945313 189.64355,42.813477 C191.31152,46.286133 191.02637,53.524414 190.47559,59.09082 C190.2002,61.874023 189.8584,64.239258 189.66113,65.506836 C189.5625,66.140625 189.5,66.5 189.5,66.5 L195.5,67 L195,78.5 L178.82924,78.333717 L178.68288,76.881882 C176.9778,68.549385 172.03419,66.896622 165.22452,62.296093 C161.81967,59.995838 157.94838,58.333652 153.78212,57.481121 C151.69901,57.054852 149.54214,56.830994 147.33301,56.830994 C138.49643,56.830994 130.49648,60.412704 124.70559,66.203575 C121.81017,69.098999 119.46702,72.546715 117.84772,76.375153 C117.03809,78.28936 116.4094,74.798752 115.98313,76.881882 L115.90201,77.686653 L79.229172,77.309555 L78.318283,76.875153 C75.079697,69.218269 68.945732,63.084297 61.288841,59.845715 C57.460426,58.226429 53.251282,57.330994 48.833,57.330994 C39.996452,57.330994 31.996443,60.912724 26.205584,66.703575 C23.31016,69.599007 20.96701,73.046722 19.347719,76.875153 L18.63026,76.686432 L0.5,76.5 L0.5,34.5 L82,31.500004 z" Stretch="Fill" Stroke="#FF000000">
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.702,0.504" StartPoint="0.298,0.496">
+                            <GradientStop Color="#FF1C3468"/>
+                            <GradientStop Color="#FF1C408F" Offset="1"/>
+                            <GradientStop Color="#FF24458C" Offset="0.34799998998641968"/>
+                            <GradientStop Color="#FF4F6FB5" Offset="0.62900000810623169"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <Path Height="27.5" Width="42" Canvas.Left="88.667" Canvas.Top="2.169" Data="M81.167,-171.33099 L81.167,-146.33099 L122.167,-144.83099 L111.167,-170.83099 z" Stretch="Fill" Stroke="#FF000000">
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.811,0.681" StartPoint="0.189,0.319">
+                            <GradientStop Color="#FFFFFFFF"/>
+                            <GradientStop Color="#FFFFFFFF" Offset="1"/>
+                            <GradientStop Color="#FFCFFFFF" Offset="0.49099999666213989"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <Path Height="11.501" Width="6.379" Canvas.Left="186.045" Canvas.Top="49.155" Data="M183.16699,-124.33099 C183.16699,-124.33099 177.66699,-124.83099 178.66699,-119.83099 C179.66699,-114.83099 180.1673,-112.83116 182.66704,-114.33112 C185.16679,-115.83109 183.16699,-124.33099 183.16699,-124.33099 z" Fill="#FFFFFFFF" Stretch="Fill" Stroke="#FF000000"/>
+            </Canvas>
+            <Path Height="69.567" Width="81.196" Canvas.Left="3030.99" Canvas.Top="310.583" Data="M559,245 L545,258 C545,258 556,279 559,285 C562,291 591,301 597,299 C603,297 624,282.00009 625,279.00009 C626,276.00009 623,251.87001 620,248.87001 C617,245.87001 594.00006,231.73997 591.00006,230.73997 C588.00006,229.73997 559,245 559,245 z" Stretch="Fill" Stroke="#FF000000" Fill="#FFA99432" x:Name="rock1"/>
+            <Path Height="70" Width="81" Data="M559,245 L545,258 C545,258 556,279 559,285 C562,291 591,301 597,299 C603,297 624,282.00009 625,279.00009 C626,276.00009 623,251.87001 620,248.87001 C617,245.87001 594.00006,231.73997 591.00006,230.73997 C588.00006,229.73997 559,245 559,245 z" Stretch="Fill" Stroke="#FF000000" Fill="#FFA99432" x:Name="rock1_Copy" Canvas.Left="2900.892" Canvas.Top="326.583"/>
+            <Path Height="645.5" Width="161.5" Data="M-78,29 L64,29 C64,29 83,51 78,55 C73,59 79.334686,673.49921 79.334686,673.49921 L-81.000008,673 L-77.525261,322.04495 L-59.655144,258.1442 L-68.590202,203.22945 L-61.845337,137.32614 L-61.622131,89.410965 z" Stretch="Fill" x:Name="cliff2" Canvas.Left="3998.5" Canvas.Top="71.5">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.528,-0.005" StartPoint="0.484,0.995">
+                        <GradientStop Color="#FF99812D"/>
+                        <GradientStop Color="#FFBBA65D" Offset="1"/>
+                        <GradientStop Color="#FFEED278" Offset="0.50400000810623169"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Spritehand_FarseerHelper:PhysicsStaticHolder Height="42" Width="48" Canvas.Left="4062" Canvas.Top="174" Body="cliff2"/>
+            <Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" BodyOne="cnvWheelFront" BodyTwo="cnvBody" CollisionGroup="1" Canvas.Left="224" Canvas.Top="435"/>
+            <Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" BodyOne="cnvWheelBack" BodyTwo="cnvBody" CollisionGroup="1" Canvas.Left="124" Canvas.Top="435"/>
+
+
+        </Canvas>
+        <Canvas Height="60">
+            <TextBlock x:Name="txtFPS" Text="XXXX FPS"/>
+
+        </Canvas>
+    </StackPanel>
+</UserControl>

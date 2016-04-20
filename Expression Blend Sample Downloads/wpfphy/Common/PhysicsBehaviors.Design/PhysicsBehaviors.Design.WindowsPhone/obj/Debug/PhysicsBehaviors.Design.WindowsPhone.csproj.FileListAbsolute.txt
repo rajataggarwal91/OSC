@@ -1,0 +1,8 @@
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\PhoneBin\Debug\PhysicsBehaviors.Design.WindowsPhone.dll
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\PhoneBin\Debug\PhysicsBehaviors.Design.WindowsPhone.pdb
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\obj\Debug\PhysicsBehaviors.Design.WindowsPhone.Properties.Resources.resources
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\obj\Debug\GenerateResource.write.1.tlog
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\obj\Debug\PhysicsBehaviors.Design.WindowsPhone.dll
+C:\dev\Silverlight\PhysicsHelper\Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WindowsPhone\obj\Debug\PhysicsBehaviors.Design.WindowsPhone.pdb

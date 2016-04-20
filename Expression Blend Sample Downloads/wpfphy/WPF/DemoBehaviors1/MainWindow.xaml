@@ -1,0 +1,47 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Spritehand.PhysicsBehaviors;assembly=Spritehand.PhysicsBehaviors"
+	x:Class="DemoBehaviors1.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="800" Height="600" Background="Black">
+
+	<Canvas x:Name="LayoutRoot">
+		<i:Interaction.Behaviors>
+			<pb:PhysicsControllerBehavior DebugMode="False" MousePickEnabled="True"/>
+		</i:Interaction.Behaviors>
+		<Image x:Name="spaceSuit" Width="58" Height="114" Canvas.Left="122" Canvas.Top="38" Source="SpaceSuit.png" Stretch="Fill">
+			<i:Interaction.Behaviors>
+				<pb:PhysicsObjectBehavior/>
+				<pb:PhysicsCameraBehavior/>
+			</i:Interaction.Behaviors>
+		</Image>
+		<Path x:Name="ground" Fill="#FF9E9E9E" Stretch="Fill" Stroke="Black" Width="767.5" Height="447.68" Data="M10,158.99996 L9.5,551.5 774.5,554.5 776,115 C776,115 719,133 716,160 713,187 687.5,299.49996 687.5,299.49996 687.5,299.49996 446,305.49996 449,321.99996 452,338.49996 462.5,359.49996 462.5,359.49996 L677,357.99996 C677,357.99996 680,392.5 671,395.5 662,398.5 597.5,468.99999 581,488.49999 564.5,507.99999 198.5,492.99998 192.5,477.99998 186.5,462.99998 129.5,429.99997 119,403 113.5633,389.01993 128,209.49996 108.5,207.99996 89,206.49996 20,138.99996 20,117.99996 20,96.999962 12.5,114.99996 12.5,114.99996 12.5,114.99996 10.5,161.00001&#xd;&#xa;10,158.99996 z" Canvas.Left="9.5" Canvas.Top="107.82">
+			<i:Interaction.Behaviors>
+				<pb:PhysicsObjectBehavior IsStatic="True"/>
+			</i:Interaction.Behaviors>
+		</Path>
+		<Rectangle x:Name="platform" Fill="#FFECD334" Stroke="Black" Width="165" Height="24" Canvas.Left="91" Canvas.Top="238.5">
+			<i:Interaction.Behaviors>
+				<pb:PhysicsObjectBehavior/>
+			</i:Interaction.Behaviors>
+		</Rectangle>
+		<Ellipse Fill="#FFECD334" Stroke="Black" Width="20" Height="20" Canvas.Left="97" Canvas.Top="240">
+			<i:Interaction.Behaviors>
+				<pb:PhysicsJointBehavior BodyOne="platform" BodyTwo="ground" CollisionGroup="1" AngleSpringConstant="500000" AngleSpringEnabled="True"/>
+			</i:Interaction.Behaviors>
+		</Ellipse>
+		<Canvas x:Name="cnvGear" Width="132" Height="157" Canvas.Left="297" Canvas.Top="214"/>
+		<Rectangle x:Name="platform2" Fill="#FFECD334" Stroke="Black" Width="165" Height="24" Canvas.Left="311.5" Canvas.Top="325.5">
+			<i:Interaction.Behaviors>
+				<pb:PhysicsObjectBehavior/>
+			</i:Interaction.Behaviors>
+		</Rectangle>
+		<Ellipse Fill="#FFECD334" Stroke="Black" Width="20" Height="20" Canvas.Left="454" Canvas.Top="328.5">
+			<i:Interaction.Behaviors>
+				<pb:PhysicsJointBehavior BodyOne="platform2" BodyTwo="ground" CollisionGroup="1" AngleSpringConstant="500000" AngleSpringEnabled="True"/>
+			</i:Interaction.Behaviors>
+		</Ellipse>
+	</Canvas>
+</Window>

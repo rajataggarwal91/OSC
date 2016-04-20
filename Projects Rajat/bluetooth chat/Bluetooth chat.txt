@@ -1,0 +1,39 @@
+Bluetooth chat software: 
+
+Important Notice: This project should not be copied and represented as one's own. Any such intent or deed will be dealt with by OSC. 
+
+
+Projectees: Rajat Aggarwal	
+	    Binay Agarwal
+	    Rahul Singh Jamwal
+	    Chetan Agrawal
+
+
+technology: J2ME
+Dt of upload: 08.07.2011
+
+Description:
+	Bluetooth messaging project sends messages between devices using Serial communication. Two devices can have two way communication between themselves (one server and one client) and then after some specified time ( 5 sec in this program) client pairs with another server. All the messages printed on client's screen are then copied to second  server screen. Two servers are used because a single client knows everytime whom to connect with. This goes on.
+
+Things you should know related to this project
+J2ME basics of building User Interface - display, commands, textBox
+Bluetooth connection and send, receive commands
+Threading
+
+
+State of project:
+	Incomplete
+	functioning for three devices only. Unexpected problems occur as time of run increases.	
+
+Direction for loading and running:
+	Open the project into your netbeans IDE after copying the folder into suitable position.
+	Netbeans IDE 6.8 and above run this without any problem.
+	Run the program and wait for emulator to load
+	Once emulator comes up, Go to project properties and change the emulator to any other bluetooth supporting 	emulator device. Then rerun. Do this another time for third emulator device.
+	Now you have three device emulators on your screen.
+	Enter user names in all three
+	Enter device number as 0,1 and 2 on 3 different emulators
+	Now you can send message from one device to another by writing into textbox
+	
+	The coding part is a little tricky and might require reading of Bluetooth and J2ME fundamentals beforehand.
+	Some pdfs attached with the project might help you as they did to us.

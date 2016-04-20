@@ -1,0 +1,57 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:Spritehand_PhysicsBehaviors="clr-namespace:Spritehand.PhysicsBehaviors;assembly=Spritehand.PhysicsBehaviors" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="DemoBehaviors2.MainPage" 
+    xmlns:local="clr-namespace:DemoBehaviors2"
+    Width="1020" Height="700" mc:Ignorable="d">
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF61BFC1"/>
+                <GradientStop Color="#FF1A7BA4" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="0" />
+        </Grid.RowDefinitions>
+
+        <Canvas x:Name="cnvGame" Grid.Row="0">
+        	<i:Interaction.Behaviors>
+        		<Spritehand_PhysicsBehaviors:PhysicsControllerBehavior MousePickEnabled="True" DebugMode="False"/>
+        	</i:Interaction.Behaviors>
+            <Path Height="277.071" Width="1012.687" Canvas.Left="2.559" Canvas.Top="422.453" Stretch="Fill" Stroke="#FF000000" Data="M3.000005,699 L5.0000043,426 C5.0000043,426 86,514 116,514 C146,514 213,527 244,540 C275,553 346,564 373,561 C400,558 507,534 523,544 C539,554 616,568 647,567 C678,566 746,540 772,543 C798,546 898,556 907,553 C916,550 1011.9998,445 1013.9998,424 C1015.9998,403 1013.0002,698 1013.0002,698 z" x:Name="ground">
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF62B36F"/>
+                        <GradientStop Color="#FF045B12" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            	<i:Interaction.Behaviors>
+            		<Spritehand_PhysicsBehaviors:PhysicsObjectBehavior CollisionGroup="10000" IsStatic="True"/>
+            	</i:Interaction.Behaviors>
+            </Path>
+
+            <StackPanel Orientation="Horizontal" Canvas.Top="658" Canvas.Left="10">
+                <TextBlock><Run Text="Spritehand Physics Helper"/></TextBlock>
+                <TextBlock Margin="5,0,5,0"><Run Text="|"/></TextBlock>
+                <HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.spritehand.com" NavigateUri="http://www.spritehand.com" TargetName="_blank" />
+                <TextBlock Margin="5,0,5,0"><Run Text="|"/></TextBlock>
+                <HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.andybeaulieu.com" NavigateUri="http://www.andybeaulieu.com" TargetName="_blank" />
+            </StackPanel>
+        	<local:ucRagDoll x:Name="ucRagDoll1" Canvas.Left="338" Canvas.Top="76" d:LayoutOverrides="Height"/>
+        </Canvas>
+
+
+
+
+
+        <TextBlock x:Name="txtFPS" Height="30" HorizontalAlignment="Left" Margin="121,38,0,0" VerticalAlignment="Top" Width="50" />
+        <Button x:Name="btnAddDoll" Width="100" Click="btnAddDoll_Click" Content="Add New Doll" Height="30" HorizontalAlignment="Left" Margin="4,37,0,0" VerticalAlignment="Top" />
+        <TextBlock Margin="0,0,40,0" Text="This is a simple rag doll demo, created using Behaviors. It has MousePickEnabled so you can use the mouse to manipulate. Click Add New Doll to add another rag doll, but this is intense so keep an eye on FPS! Note that the RagDoll is defined in a separate UserControl, ucRagDoll - demonstrating nested PhysicsJoint objects and dynamic new objects." TextWrapping="Wrap" Height="32" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</UserControl>

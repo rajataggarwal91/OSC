@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingMenu.Control", "RotatingMenu.Control\RotatingMenu.Control.csproj", "{8BA9BBEB-1C60-411A-9C29-25C800944426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingMenu.Demo", "RotatingMenu.Demo\RotatingMenu.Demo.csproj", "{08768E1D-5DBC-434E-868C-4825232709FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingMenu.Demo.Web", "RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj", "{8EBA2D44-2142-40A2-BE9E-C672939E6059}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA9BBEB-1C60-411A-9C29-25C800944426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA9BBEB-1C60-411A-9C29-25C800944426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA9BBEB-1C60-411A-9C29-25C800944426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA9BBEB-1C60-411A-9C29-25C800944426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08768E1D-5DBC-434E-868C-4825232709FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08768E1D-5DBC-434E-868C-4825232709FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08768E1D-5DBC-434E-868C-4825232709FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08768E1D-5DBC-434E-868C-4825232709FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBA2D44-2142-40A2-BE9E-C672939E6059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBA2D44-2142-40A2-BE9E-C672939E6059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBA2D44-2142-40A2-BE9E-C672939E6059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBA2D44-2142-40A2-BE9E-C672939E6059}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

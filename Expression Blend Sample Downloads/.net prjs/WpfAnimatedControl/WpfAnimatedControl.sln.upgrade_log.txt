@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------------------------------------
+E:\Expression Blend Sample Downloads\.net prjs\WpfAnimatedControl\WpfAnimatedControl\WpfAnimatedControl.csproj
+--------------------------------------------------------------------------------------------------------------
+Setting <ExpressionBlendVersion> value to '4.0.20421.0'
+Updating ToolsVersion from '3.5' to '4.0'
+Saving file
+
+
+--------------------------------------------------------------------------------------------------------------------
+E:\Expression Blend Sample Downloads\.net prjs\WpfAnimatedControl\AnimatedControlTester\AnimatedControlTester.csproj
+--------------------------------------------------------------------------------------------------------------------
+Setting <ExpressionBlendVersion> value to '4.0.20421.0'
+Updating ToolsVersion from '3.5' to '4.0'
+Saving file
+
+
+----------------------------------------------------------------------------------------
+E:\Expression Blend Sample Downloads\.net prjs\WpfAnimatedControl\WpfAnimatedControl.sln
+----------------------------------------------------------------------------------------
+Setting solution format header to 'Microsoft Visual Studio Solution File, Format Version 11.00'
+Saving file
+
+

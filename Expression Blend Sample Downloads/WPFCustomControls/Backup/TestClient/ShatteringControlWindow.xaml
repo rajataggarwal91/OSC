@@ -1,0 +1,31 @@
+﻿<Window x:Class="TestClient.ShatteringControlWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:myControls="http://pointlessControls.codeplex.com/"
+        Height="300" Width="300">
+    <Border Padding="5">
+    <DockPanel>
+            <StackPanel DockPanel.Dock="Top"  Orientation="Horizontal">
+                <Button Command="{Binding Path=StartShatterCommand, ElementName=shatterControl, Mode=Default}" >Start Effect</Button>
+            </StackPanel>
+                <Grid>
+        <myControls:ShatteringControl ClipToBounds="True" x:Name="shatterControl" Finished="shatterControl_Finished">           
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Right" Background="LightBlue">
+                    <Button>fewffewfew</Button>
+                    <Button>fewffewfew</Button>
+                    <Expander Header="noowerpi"></Expander>
+                    <RadioButton>fewfwe</RadioButton>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <CheckBox>dwewe</CheckBox>
+                    <Button Margin="5" Background="Red">rfewverv</Button>
+                </StackPanel>
+            <Button >fdsfas</Button>
+                </DockPanel>
+        </myControls:ShatteringControl>
+    </Grid>
+</DockPanel>
+
+        </Border>
+</Window>

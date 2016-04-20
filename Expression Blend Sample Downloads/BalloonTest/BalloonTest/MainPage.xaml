@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="BalloonTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Balloon="clr-namespace:Balloon.BalloonControl;assembly=Balloon"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.ColumnSpan="2" FontSize="20" >BalloonControl demo</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="1">Mouseover to show</TextBlock>
+        <Balloon:BalloonBox Grid.Row="1" Grid.Column="2" Type="MouseOverToShow"  Grid.RowSpan="3" Grid.ColumnSpan="3">
+            <Balloon:BalloonBox.Header>
+                <TextBlock>Silverlight</TextBlock>
+            </Balloon:BalloonBox.Header>
+            <Balloon:BalloonBox.Content>
+                <TextBlock Width="185" TextWrapping="Wrap">Silverlight is a powerful development platform for creating engaging, interactive user experiences for Web, desktop, and mobile applications when online or offline.</TextBlock>
+            </Balloon:BalloonBox.Content>
+        </Balloon:BalloonBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="2">Click to edit</TextBlock>
+        <Balloon:BalloonBox Name="Note" Grid.Row="2" Grid.Column="2" Type="ClickToShow"  LabelText="{Binding Note,Mode=TwoWay}"  WaterMark="Enter Note" Grid.RowSpan="3" Grid.ColumnSpan="3">
+            <Balloon:BalloonBox.Content>
+                <TextBox Text="{Binding Note,Mode=TwoWay}"></TextBox>
+            </Balloon:BalloonBox.Content>
+        </Balloon:BalloonBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="3">Click to show controls</TextBlock>
+        <Balloon:BalloonBox Grid.Row="3" Grid.Column="2" Type="ClickToShow" Grid.RowSpan="3" Grid.ColumnSpan="3">
+            <Balloon:BalloonBox.Header>
+
+                <TextBlock Text="Click to edit" />
+
+            </Balloon:BalloonBox.Header>
+            <Balloon:BalloonBox.Content>
+                <Canvas HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="181">
+                    <TextBlock Height="20" Canvas.Left="8" TextWrapping="Wrap" Text="Some controls" Canvas.Top="0" Width="155"/>
+                    <RadioButton Content="Option A" Height="17" Canvas.Left="8" Canvas.Top="20" Width="110"/>
+                    <RadioButton Content="Option B" Height="26" Canvas.Left="8" Canvas.Top="40" Width="110"/>
+
+                </Canvas>
+
+            </Balloon:BalloonBox.Content>
+        </Balloon:BalloonBox>
+
+        <StackPanel Grid.Column="1" Grid.Row="4" Orientation="Vertical">
+            <TextBlock>Manual control</TextBlock>
+            <CheckBox Name="CheckboxShow">Show Balloon</CheckBox>
+        </StackPanel>
+
+        <Balloon:BalloonBox Name="ManualControl" Grid.Row="4" Grid.Column="2" Type="Manual" Grid.RowSpan="3" Grid.ColumnSpan="3" IsOpen="{Binding ElementName=CheckboxShow, Path=IsChecked, Mode=TwoWay}">
+            <Balloon:BalloonBox.Header>
+                <TextBlock>Some content</TextBlock>
+            </Balloon:BalloonBox.Header>
+            <Balloon:BalloonBox.Content>
+                <Canvas HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="181">
+                    <TextBlock Height="20" Canvas.Left="8" TextWrapping="Wrap" Text="Some controls" Canvas.Top="0" Width="155"/>
+                    <RadioButton Content="Option A" Height="17" Canvas.Left="8" Canvas.Top="20" Width="110"/>
+                    <RadioButton Content="Option B" Height="26" Canvas.Left="8" Canvas.Top="40" Width="110"/>
+
+                </Canvas>
+
+            </Balloon:BalloonBox.Content>
+        </Balloon:BalloonBox>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5">
+
+
+            <HyperlinkButton Height="30" NavigateUri="http://www.mixteams.com">MixTeams.com</HyperlinkButton>
+
+        </StackPanel>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0" />
+                <GradientStop Color="#FFD9E4E8" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+</UserControl>

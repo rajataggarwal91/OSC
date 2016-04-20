@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{4EF17DDC-AD04-4E15-B488-78DE75D554D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{D59B7E29-ACE1-4B54-A2CB-2D637642E679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsHelper.WPF", "Common\PhysicsHelper\PhysicsHelper.WPF.csproj", "{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsBehaviors.WPF", "Common\PhysicsBehaviors\PhysicsBehaviors.WPF.csproj", "{345FF3F8-DD6C-4E8C-B376-149922865E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBehaviors1", "WPF\DemoBehaviors1\DemoBehaviors1.csproj", "{58096BD8-A141-4420-A036-F7D14203CE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsBehaviors.Design.WPF", "Common\PhysicsBehaviors.Design\PhysicsBehaviors.Design.WPF.csproj", "{30278476-D596-449C-9F25-98CEDFEDD60F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B}.Release|x86.ActiveCfg = Release|Any CPU
+		{58096BD8-A141-4420-A036-F7D14203CE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58096BD8-A141-4420-A036-F7D14203CE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58096BD8-A141-4420-A036-F7D14203CE15}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58096BD8-A141-4420-A036-F7D14203CE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58096BD8-A141-4420-A036-F7D14203CE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58096BD8-A141-4420-A036-F7D14203CE15}.Release|x86.ActiveCfg = Release|Any CPU
+		{30278476-D596-449C-9F25-98CEDFEDD60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30278476-D596-449C-9F25-98CEDFEDD60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30278476-D596-449C-9F25-98CEDFEDD60F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30278476-D596-449C-9F25-98CEDFEDD60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30278476-D596-449C-9F25-98CEDFEDD60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30278476-D596-449C-9F25-98CEDFEDD60F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D59B7E29-ACE1-4B54-A2CB-2D637642E679} = {4EF17DDC-AD04-4E15-B488-78DE75D554D1}
+		{8971B1E3-C8DD-4C34-B0B0-1CED622552EE} = {4EF17DDC-AD04-4E15-B488-78DE75D554D1}
+		{345FF3F8-DD6C-4E8C-B376-149922865E1B} = {4EF17DDC-AD04-4E15-B488-78DE75D554D1}
+		{30278476-D596-449C-9F25-98CEDFEDD60F} = {4EF17DDC-AD04-4E15-B488-78DE75D554D1}
+		{58096BD8-A141-4420-A036-F7D14203CE15} = {D59B7E29-ACE1-4B54-A2CB-2D637642E679}
+	EndGlobalSection
+EndGlobal

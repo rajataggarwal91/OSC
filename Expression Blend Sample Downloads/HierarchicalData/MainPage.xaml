@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="HierarchicalData.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+    xmlns:data="clr-namespace:System.Windows;assembly=System.Windows.Controls"     
+    xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"  
+    mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="400"
+    xmlns:local="clr-namespace:HierarchicalData">
+    <UserControl.Resources>
+        <local:DataSource x:Key="SourceClass"/>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Background="White">
+        <controls:TreeView x:Name="tree" ItemsSource="{Binding Path=Source, Source={StaticResource SourceClass}}">
+            <controls:TreeView.ItemTemplate>
+                <data:HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                    <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay}"  />
+                </data:HierarchicalDataTemplate>
+            </controls:TreeView.ItemTemplate>
+        </controls:TreeView>
+    </Grid>
+</UserControl>
+

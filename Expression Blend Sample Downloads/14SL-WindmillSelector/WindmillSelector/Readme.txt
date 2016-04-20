@@ -1,0 +1,1 @@
+This pattern uses the PathListBox control. Install Blend 4 SDK to get access to the PathListBox control.

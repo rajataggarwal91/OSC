@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RotatingMenu">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.sln">
+</Property><Property Name="User Options File" Value="E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.suo">
+</Property><Property Name="Date" Value="Friday, June 11, 2010">
+</Property><Property Name="Time" Value="17:09 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RotatingMenu.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.sln">
+</Event><Event ErrorLevel="0" Project="" Source="RotatingMenu.suo" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.suo">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\RotatingMenu.Control.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Control\RotatingMenu.Control.csproj">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\RotatingMenu.Control.csproj.user" Description="Project user file successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Control\RotatingMenu.Control.csproj.user">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\Menu.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Control\Menu.xaml.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\MenuItem.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Control\MenuItem.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Control\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\Menu.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Control\Menu.xaml">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\RotatingMenu.Control.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RotatingMenu.Control" Source="RotatingMenu.Control\RotatingMenu.Control.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\RotatingMenu.Demo.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\RotatingMenu.Demo.csproj">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\RotatingMenu.Demo.csproj.user" Description="Project user file successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\RotatingMenu.Demo.csproj.user">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\App.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\MainPage.xaml.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\MainPage.xaml.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\Properties\AppManifest.xml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\Properties\AppManifest.xml">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\App.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\App.xaml">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\MainPage.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo\MainPage.xaml">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\RotatingMenu.Demo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\RotatingMenu.Demo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj.user" Description="Project user file successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj.user">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\ClientBin\RotatingMenu.Demo.xap" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\ClientBin\RotatingMenu.Demo.xap">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\RotatingMenu.DemoTestPage.html" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\RotatingMenu.DemoTestPage.html">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\Silverlight.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\Silverlight.js">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\Web.config" Description="File successfully backed up as E:\Expression Blend Sample Downloads\RotatingMenu\Backup\RotatingMenu.Demo.Web\Web.config">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RotatingMenu.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RotatingMenu.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Control" Source="RotatingMenu.Control\RotatingMenu.Control.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo" Source="RotatingMenu.Demo\RotatingMenu.Demo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RotatingMenu.Demo.Web" Source="RotatingMenu.Demo.Web\RotatingMenu.Demo.Web.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

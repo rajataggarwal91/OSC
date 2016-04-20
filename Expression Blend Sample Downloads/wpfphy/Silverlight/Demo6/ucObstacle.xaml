@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Demo6.ucObstacle"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300" xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper">
+    <Canvas x:Name="LayoutRoot">
+    	<Spritehand_FarseerHelper:PhysicsStaticHolder Canvas.Left="89" Canvas.Top="143" Body="obstacle"/>
+    	<Path Height="242.14" x:Name="obstacle" Width="411" Canvas.Left="-6" Canvas.Top="62.49" Stretch="Fill" Data="M1,4.5893312 L51,2.0040154 L108,2.0040154 L191.84363,5.0083671 L260.03806,5.7975821 L321,5.0101767 L367,4.8097844 L410,4.869874 L411,244.6413 L0,244 z">
+    		<Path.Fill>
+    			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    				<GradientStop Color="#FFDAC479"/>
+    				<GradientStop Color="#FF937B25" Offset="1"/>
+    			</LinearGradientBrush>
+    		</Path.Fill>
+    	</Path>
+
+    </Canvas>
+</UserControl>

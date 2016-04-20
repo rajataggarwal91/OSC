@@ -1,0 +1,130 @@
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\ResolveAssemblyReference.cache
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\AddDialog.baml
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\BtnNext.baml
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\App.baml
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\AddDialog.g.cs
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\BtnNext.g.cs
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\MainWindow.g.cs
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\App.g.cs
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.cache
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.lref
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\bin\Debug\GLASS_WINDOW.exe
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\bin\Debug\GLASS_WINDOW.pdb
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\MainWindow.baml
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.g.resources
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.exe
+E:\Exp\wpf\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.pdb
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\bin\Debug\GLASS_WINDOW.exe
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\bin\Debug\GLASS_WINDOW.pdb
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\ResolveAssemblyReference.cache
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\AddDialog.baml
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\BtnNext.baml
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\SearchWin.baml
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\App.baml
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\AddDialog.g.cs
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\BtnNext.g.cs
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\MainWindow.g.cs
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\SearchWin.g.cs
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\App.g.cs
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.cache
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.lref
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\MainWindow.baml
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.g.resources
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.exe
+G:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.pdb
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\bin\Debug\GLASS_WINDOW.exe
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\bin\Debug\GLASS_WINDOW.pdb
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\ResolveAssemblyReference.cache
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\AddDialog.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\SearchWin.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\ShinyBlue.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\TestWin.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\App.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\AddDialog.g.cs
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\MainWindow.g.cs
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\SearchWin.g.cs
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\TestWin.g.cs
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\App.g.cs
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.cache
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.lref
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\MainWindow.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.g.resources
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.exe
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW.pdb
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\BureauBlack.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\BureauBlue.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\ExpressionDark.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\ExpressionLight.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\ShinyBlue.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\ShinyRed.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\Skins\WhistlerBlue.baml
+I:\prjs in .net\GLASS WINDOW\GLASS WINDOW\obj\Debug\GLASS_WINDOW_Content.g.cs
+K:\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.exe
+K:\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.pdb
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.exe
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.pdb
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\bin\Debug\GLASS_WINDOW.exe
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\bin\Debug\GLASS_WINDOW.pdb
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\ResolveAssemblyReference.cache
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\AddDialog.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\SearchWin.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\ShinyBlue.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\BureauBlack.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\BureauBlue.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ExpressionDark.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ExpressionLight.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ShinyBlue.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ShinyRed.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\WhistlerBlue.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\TestWin.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\App.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\AddDialog.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\MainWindow.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\SearchWin.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\TestWin.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\App.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW_Content.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.cache
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.lref
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\MainWindow.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.g.resources
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\bin\Debug\ContentControl3D.exe
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\bin\Debug\ContentControl3DLib.dll
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\bin\Debug\ContentControl3D.pdb
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\FrontSide.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\FrontSide.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\BackSide.baml
+E:\Trans Data\Flash Cards CY2\GLASS WINDOW\obj\Debug\BackSide.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.exe
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.pdb
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\bin\Debug\ContentControl3D.exe
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\bin\Debug\ContentControl3DLib.dll
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\ResolveAssemblyReference.cache
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\AddDialog.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\BackSide.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\FrontSide.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\SearchWin.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\ShinyBlue.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\BureauBlack.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\BureauBlue.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ExpressionDark.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ExpressionLight.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ShinyBlue.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\ShinyRed.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\Skins\WhistlerBlue.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\TestWin.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\App.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\AddDialog.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\BackSide.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\FrontSide.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\MainWindow.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\SearchWin.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\TestWin.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\App.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW_Content.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.cache
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW_MarkupCompile.lref
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\MainWindow.baml
+E:\Expression Blend Sample Downloads\Flash Cards CY2\GLASS WINDOW\obj\Debug\GLASS_WINDOW.g.resources

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ButtonGallery">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\ButtonGallery\ButtonGallery.sln">
+</Property><Property Name="Date" Value="Monday, June 21, 2010">
+</Property><Property Name="Time" Value="19:47 PM">
+</Property><Property Name="Solution" Value="ButtonGallery">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\ButtonGallery\ButtonGallery.sln">
+</Property><Property Name="Date" Value="Monday, June 21, 2010">
+</Property><Property Name="Time" Value="19:47 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ButtonGallery.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\ButtonGallery.sln">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\ButtonGallery.csproj">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Default.html" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\Default.html">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\buttons_rect2.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\buttons_rect2.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\buttons_sq2.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\buttons_sq2.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_arrow.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_arrow.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_blue.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_blue.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_green.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_green.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_mail.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_mail.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_minus.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_minus.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_orange.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_orange.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_paw.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_paw.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_plus.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_plus.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_purple.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_purple.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_red.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_red.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_smiley.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_smiley.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_x.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_x.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_yellow.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\button_yellow.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\mushroombutton.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\mushroombutton.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\orange.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\orange.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\UI.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\design_files\UI.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Silverlight.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\Silverlight.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Page.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\Page.xaml">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Page.xaml.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\Page.xaml.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Default_html.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\Default_html.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="images\lens.PNG" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\images\lens.PNG">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="images\lens_small.PNG" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\images\lens_small.PNG">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="js\Button.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\js\Button.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_1.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Click_1.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_2.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Click_2.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_3.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Click_3.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_5.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Click_5.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Focus.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Focus.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_1.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Over_1.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_2.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Over_2.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_3.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Over_3.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_5.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Over_5.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Shutter.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup\sounds\Shutter.wma">
+</Event><Event ErrorLevel="1" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ButtonGallery.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\ButtonGallery.sln">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\ButtonGallery.csproj">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Default.html" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\Default.html">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\buttons_rect2.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\buttons_rect2.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\buttons_sq2.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\buttons_sq2.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_arrow.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_arrow.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_blue.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_blue.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_green.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_green.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_mail.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_mail.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_minus.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_minus.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_orange.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_orange.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_paw.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_paw.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_plus.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_plus.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_purple.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_purple.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_red.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_red.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_smiley.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_smiley.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_x.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_x.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\button_yellow.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\button_yellow.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\mushroombutton.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\mushroombutton.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\orange.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\orange.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="design_files\UI.design" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\design_files\UI.design">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Silverlight.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\Silverlight.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Page.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\Page.xaml">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Page.xaml.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\Page.xaml.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="Default_html.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\Default_html.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="images\lens.PNG" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\images\lens.PNG">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="images\lens_small.PNG" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\images\lens_small.PNG">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="js\Button.js" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\js\Button.js">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_1.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Click_1.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_2.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Click_2.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_3.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Click_3.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Click_5.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Click_5.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Focus.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Focus.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_1.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Over_1.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_2.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Over_2.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_3.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Over_3.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Over_5.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Over_5.wma">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="sounds\Shutter.wma" Description="File successfully backed up as E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\sounds\Shutter.wma">
+</Event><Event ErrorLevel="1" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Error creating backup of project file:  E:\Expression Blend Sample Downloads\ButtonGallery\Backup1\ButtonGallery.csproj">
+</Event><Event ErrorLevel="3" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ButtonGallery.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ButtonGallery.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ButtonGallery" Source="ButtonGallery.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

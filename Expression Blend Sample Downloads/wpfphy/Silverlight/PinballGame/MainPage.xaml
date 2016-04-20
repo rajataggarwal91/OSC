@@ -1,0 +1,131 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Spritehand.PhysicsBehaviors;assembly=Spritehand.PhysicsBehaviors" xmlns:local="clr-namespace:PinballGame" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	x:Class="PinballGame.MainPage"
+	Width="800" Height="600" mc:Ignorable="d">
+
+	<Canvas>
+
+		<Canvas x:Name="LayoutRoot" Background="#FF010141" Height="600" Width="800">
+			<i:Interaction.Triggers>
+				<pb:PhysicsCollisionTrigger MatchLikeBodyNames="True" BodyOne="ellBall" BodyTwo="cnvKicker">
+					<pb:PhysicsSoundBehavior Buffers="3" Source="/score.wma"/>
+				</pb:PhysicsCollisionTrigger>
+				<pb:PhysicsKeyTrigger Key="Left" TriggeredOn="OnKeyDown">
+					<pb:PhysicsSoundBehavior Source="/click.wma"/>
+				</pb:PhysicsKeyTrigger>
+				<pb:PhysicsKeyTrigger Key="Right" TriggeredOn="OnKeyDown">
+					<pb:PhysicsSoundBehavior Source="/click.wma"/>
+				</pb:PhysicsKeyTrigger>
+			</i:Interaction.Triggers>
+
+			<i:Interaction.Behaviors>
+				<pb:PhysicsControllerBehavior GravityVertical="250" Iterations="100" MousePickEnabled="True" DebugMode="False" TimeStep="0.01"/>
+			</i:Interaction.Behaviors>
+			<Rectangle x:Name="rectPlatform" CacheMode="BitmapCache" Fill="#FF8AD0C9" Height="70" Width="800" Canvas.Left="-14" Canvas.Top="2172" Opacity="0">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True"/>
+				</i:Interaction.Behaviors>
+			</Rectangle>
+			<Ellipse x:Name="ellBall" CacheMode="BitmapCache" Height="50" Width="50" Canvas.Left="221" Canvas.Top="182">
+				<Ellipse.Fill>
+					<RadialGradientBrush GradientOrigin="0.638,0.229">
+						<GradientStop Color="#FFC4E2E2" Offset="0.085"/>
+						<GradientStop Color="#FF8AD0C9" Offset="1"/>
+					</RadialGradientBrush>
+				</Ellipse.Fill>
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior RestitutionCoefficient="0.01"/>
+					<pb:PhysicsCameraBehavior/>
+				</i:Interaction.Behaviors>
+			</Ellipse>
+			<local:LeftFlipper Canvas.Left="107" Canvas.Top="1843" d:LayoutOverrides="Width, Height"/>
+			<local:RightFlipper Canvas.Left="500" Canvas.Top="1841" d:LayoutOverrides="Width, Height"/>
+			<Canvas x:Name="cnvLeftBorder" CacheMode="BitmapCache" Height="1132" Width="496" Canvas.Left="-354" Canvas.Top="768">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True" CollisionGroup="1"/>
+				</i:Interaction.Behaviors>
+				<Path Fill="#FF8AD0C9" Stretch="Fill" Height="1132" Width="496" UseLayoutRounding="False" Data="M96,435 L171,366 L-159,-30 L0,-687 L-156,-696 L-324,27 z" Canvas.Left="-2"/>
+			</Canvas>
+			<Canvas x:Name="cnvRightBorder" CacheMode="BitmapCache" Height="1132" Width="496" Canvas.Left="636" Canvas.Top="774">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True" CollisionGroup="1"/>
+				</i:Interaction.Behaviors>
+				<Path Fill="#FF8AD0C9" Stretch="Fill" Height="1132" Width="496" UseLayoutRounding="False" Data="M96,435 L171,366 L-159,-30 L0,-687 L-156,-696 L-324,27 z" RenderTransformOrigin="0.5,0.5" Canvas.Left="4">
+					<Path.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleX="-1"/>
+							<SkewTransform AngleX="0" AngleY="0"/>
+							<RotateTransform Angle="0"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Path.RenderTransform>
+				</Path>
+			</Canvas>
+			<Canvas x:Name="cnvTopBorder" CacheMode="BitmapCache" Height="126" Width="1154" Canvas.Left="-182" Canvas.Top="8">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True" CollisionGroup="1"/>
+				</i:Interaction.Behaviors>
+				<Rectangle x:Name="rectTopBorder" Fill="#FF8AD0C9" Height="126" Width="1146"/>
+			</Canvas>
+			<Canvas x:Name="cnvLeftBorderUpper" CacheMode="BitmapCache" Height="760" Width="146" Canvas.Left="-182" Canvas.Top="8">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True" CollisionGroup="1"/>
+				</i:Interaction.Behaviors>
+				<Rectangle Fill="#FF8AD0C9" Height="776" Width="156" Canvas.Top="2" Canvas.Left="-6"/>
+			</Canvas>
+			<Canvas x:Name="cnvRightBorderUpper" CacheMode="BitmapCache" Height="760" Width="146" Canvas.Left="814" Canvas.Top="11">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True" CollisionGroup="1"/>
+				</i:Interaction.Behaviors>
+				<Rectangle Fill="#FF8AD0C9" Height="782" Width="158" Canvas.Top="-4" Canvas.Left="2"/>
+			</Canvas>
+			<Canvas x:Name="cnvObstacle1" CacheMode="BitmapCache" Height="410" Width="150" Canvas.Left="168" Canvas.Top="239">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True"/>
+				</i:Interaction.Behaviors>
+				<Path Fill="#FF8AD0C9" Stretch="Fill" Height="410.015" Width="150" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Data="M0,0 L147.11842,58.763763 C125.11842,183.09709 72,193 84,373 C72,523 128,641.66669 150,776 L0,776 L0,379 z">
+					<Path.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform Angle="-0.039"/>
+							<TranslateTransform X="1.9365842263141531E-09" Y="-1.0265921446261928E-09"/>
+						</TransformGroup>
+					</Path.RenderTransform>
+				</Path>
+			</Canvas>
+			<Canvas x:Name="cnvObstacle2" CacheMode="BitmapCache" Height="410" Width="150" Canvas.Left="468" Canvas.Top="239">
+				<i:Interaction.Behaviors>
+					<pb:PhysicsObjectBehavior IsStatic="True"/>
+				</i:Interaction.Behaviors>
+				<Path Fill="#FF8AD0C9" Stretch="Fill" Height="410.015" Width="150.114" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Data="M0,0 L150.11435,70.123306 C128.11435,194.45665 72,193 84,373 C72,523 128,641.66669 150,776 L0,776 L0,379 z">
+					<Path.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleX="-1"/>
+							<SkewTransform AngleX="0" AngleY="0"/>
+							<RotateTransform Angle="0.039000000804662704"/>
+							<TranslateTransform X="-0.11399883395171173" Y="-3.8799153571744682E-05"/>
+						</TransformGroup>
+					</Path.RenderTransform>
+				</Path>
+			</Canvas>
+			<local:LeftFlipper Canvas.Left="-93" Canvas.Top="809" d:LayoutOverrides="Width, Height"/>
+			<local:RightFlipper Canvas.Left="710" Canvas.Top="812" d:LayoutOverrides="Width, Height"/>
+			<local:LeftFlipper d:LayoutOverrides="Width, Height" Canvas.Left="-210" Canvas.Top="1360"/>
+			<local:KickingTarget Canvas.Left="338" Canvas.Top="884" d:LayoutOverrides="Width, Height"/>
+			<local:KickingTarget Canvas.Left="202" Canvas.Top="1140" d:LayoutOverrides="Width, Height"/>
+			<local:KickingTarget Canvas.Left="486" Canvas.Top="1144" d:LayoutOverrides="Width, Height"/>
+			<local:KickingTarget Canvas.Left="342" Canvas.Top="404" d:LayoutOverrides="Width, Height"/>
+			<local:RightFlipper Canvas.Left="830" Canvas.Top="1344" d:LayoutOverrides="Width, Height"/>
+		</Canvas>
+		<Canvas Height="40" Width="800" Canvas.Left="0" Canvas.Top="0" Background="#7F1C8E7D">
+			<StackPanel Canvas.Left="11" Orientation="Horizontal" Height="35" Canvas.Top="-2">
+				<TextBlock Text="SCORE:" TextWrapping="Wrap" FontWeight="Bold" FontSize="24" Margin="0,6,0,0" Foreground="White"/>
+				<TextBlock x:Name="txtScore" Text="0" TextWrapping="Wrap" FontWeight="Bold" FontSize="24" Margin="0,6,0,1" Foreground="White"/>
+			</StackPanel>
+			<TextBlock Text="Use Left + Right Arrows for Flippers" TextWrapping="Wrap" FontWeight="Bold" FontSize="24" Foreground="White" Height="29" Canvas.Top="3" Canvas.Left="304" Width="489"/>
+		</Canvas>
+	</Canvas>
+</UserControl>

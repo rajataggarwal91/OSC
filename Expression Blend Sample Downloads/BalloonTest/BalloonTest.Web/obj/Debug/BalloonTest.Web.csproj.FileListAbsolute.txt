@@ -1,0 +1,5 @@
+c:\users\tsc.adjs\documents\visual studio 2010\Projects\BalloonTest\BalloonTest.Web\bin\BalloonTest.Web.dll
+c:\users\tsc.adjs\documents\visual studio 2010\Projects\BalloonTest\BalloonTest.Web\bin\BalloonTest.Web.pdb
+c:\users\tsc.adjs\documents\visual studio 2010\Projects\BalloonTest\BalloonTest.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tsc.adjs\documents\visual studio 2010\Projects\BalloonTest\BalloonTest.Web\obj\Debug\BalloonTest.Web.dll
+c:\users\tsc.adjs\documents\visual studio 2010\Projects\BalloonTest\BalloonTest.Web\obj\Debug\BalloonTest.Web.pdb

@@ -1,0 +1,14 @@
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\Bin\Debug\RotatingMenu.Control.dll
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\Bin\Debug\RotatingMenu.Control.pdb
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\obj\Debug\Menu.g.cs
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\obj\Debug\RotatingMenu.Control.g.resources
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\obj\Debug\RotatingMenu.Control.dll
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Control\obj\Debug\RotatingMenu.Control.pdb
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\Bin\Debug\RotatingMenu.Control.dll
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\Bin\Debug\RotatingMenu.Control.pdb
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\obj\Debug\ResolveAssemblyReference.cache
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\obj\Debug\Menu.g.cs
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\obj\Debug\RotatingMenu.Control.g.resources
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\obj\Debug\RotatingMenu.Control.dll
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Control\obj\Debug\RotatingMenu.Control.pdb

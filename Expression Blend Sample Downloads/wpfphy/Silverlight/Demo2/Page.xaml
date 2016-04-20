@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Demo2.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1024" Height="760" xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper">
+    <Canvas x:Name="LayoutRoot" Background="White">
+
+    	<Rectangle Height="88" x:Name="carBody" Width="160" Canvas.Left="56" Canvas.Top="104" Stroke="#FF000000">
+    		<Rectangle.Fill>
+    			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    				<GradientStop Color="#FFD28888"/>
+    				<GradientStop Color="#FF953030" Offset="1"/>
+    			</LinearGradientBrush>
+    		</Rectangle.Fill>
+    	</Rectangle>
+    	<Ellipse Height="40" Width="40" Canvas.Left="72" Canvas.Top="168" Stroke="#FF000000" x:Name="Wheel1">
+    		<Ellipse.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.25" Y="-0.15"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FF49664C"/>
+    				<GradientStop Color="#FF1E8C2B" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Ellipse.Fill>
+    	</Ellipse>
+    	<Ellipse Height="40" Width="41" Canvas.Left="148" Canvas.Top="167" Stroke="#FF000000" x:Name="Wheel2">
+    		<Ellipse.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.245" Y="-0.15"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FF466A4B"/>
+    				<GradientStop Color="#FF1E8C2B" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Ellipse.Fill>
+    	</Ellipse>
+    	<Spritehand_FarseerHelper:PhysicsJoint x:Name="joint1" Canvas.Left="82" Canvas.Top="178" BodyOne="carBody" BodyTwo="Wheel1" CollisionGroup="1"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint x:Name="joint2" BodyOne="carBody" BodyTwo="Wheel2" Canvas.Left="158" Canvas.Top="177" AngleSpringEnabled="False" CollisionGroup="1"/>
+    	<Path Height="359" Width="751" Canvas.Left="15.5" Canvas.Top="191.5" Stretch="Fill" Stroke="#FF000000" Data="M16,288 L16,192 L320.40588,288.26892 z" x:Name="ramp">
+    		<Path.Fill>
+    			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    				<GradientStop Color="#FF9CB5E0"/>
+    				<GradientStop Color="#FF20478E" Offset="1"/>
+    			</LinearGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsStaticHolder Canvas.Left="72" Canvas.Top="248" Body="ramp"/>
+    	<Spritehand_FarseerHelper:PhysicsController x:Name="physicsController1" DebugMode="False" MousePickEnabled="True" AutoAddCanvasObjects="True" Canvas.Left="280" Canvas.Top="80" GravityVertical="500"/>
+    	<Rectangle Height="32" Width="391" Canvas.Left="664" Canvas.Top="518" Fill="#FFDAD060" Stroke="#FF000000" x:Name="springRamp"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint x:Name="joint3" Canvas.Left="678" Canvas.Top="525" AngleSpringConstant="200000" AngleSpringEnabled="True" AngleSpringDampningConstant="50000" BodyOne="ramp" BodyTwo="springRamp" CollisionGroup="2"/>
+
+
+        <StackPanel Orientation="Horizontal" Canvas.Top="556" Canvas.Left="17">
+            <TextBlock>Spritehand Physics Helper</TextBlock>
+            <TextBlock Margin="5,0,5,0">|</TextBlock>
+            <HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.spritehand.com" NavigateUri="http://www.spritehand.com" TargetName="_blank" />
+            <TextBlock Margin="5,0,5,0">|</TextBlock>
+            <HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.andybeaulieu.com" NavigateUri="http://www.andybeaulieu.com" TargetName="_blank" />
+        </StackPanel>
+        <TextBlock Height="120" Width="319" Canvas.Left="675" Canvas.Top="27" Text="This is a demo created with no code, showing the PhysicsJoint class used as a Revolute Joint for wheels. Also, the lever at the end of the ramp is a PhysicsJoint with AngleSpringEnabled=true. Note that the two wheel PhysicsJoint objects have the same CollisionGroup property. This prevents their joined bodies from colliding so they don't try to bounce off each other." TextWrapping="Wrap"/>
+
+    </Canvas>
+</UserControl>

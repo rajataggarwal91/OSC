@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="LoginLogoutTransition.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:LoginLogoutTransition" Width="910" Height="650">
+
+
+    <Grid x:Name="LayoutRoot" Background="#FF4B4D53" >        
+        <Grid Height="50" Margin="5" VerticalAlignment="Top"  Width="870">
+            <local:LoginLogoutControl Margin="-12,0,338,0"/>
+        </Grid>
+    </Grid>
+</UserControl>

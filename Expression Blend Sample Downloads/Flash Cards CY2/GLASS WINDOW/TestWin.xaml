@@ -1,0 +1,36 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="GLASS_WINDOW.TestWin"
+	x:Name="Window"
+	Title="TestWin"
+	UseLayoutRounding="True"
+	Width="534" Height="480" Loaded="Test_Loaded" Closed="Window_Closed">
+	<Window.Background>
+		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="Black" Offset="1"/>
+			<GradientStop Color="White"/>
+		</LinearGradientBrush>
+	</Window.Background>
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.855*"/>
+			<ColumnDefinition Width="0.145*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="368"/>
+			<RowDefinition Height="33"/>
+			<RowDefinition Height="41"/>
+		</Grid.RowDefinitions>
+		<Label Content="Give the meaning of following words" Height="45" Margin="13,9,7,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting" FontSize="16" FontWeight="Bold" Grid.ColumnSpan="2" Foreground="Black"/>
+        <Label Height="52" HorizontalAlignment="Left" Margin="59,62,0,0" x:Name="l1" VerticalAlignment="Top" Width="209" FontFamily="Lucida Handwriting" FontSize="16" FontWeight="Bold" />
+        <RadioButton Content="" Height="27" Margin="99,254,0,0" x:Name="RB4" VerticalAlignment="Top" Checked="RB4Checked" FontFamily="Lucida Handwriting" FontSize="16" d:LayoutOverrides="Width" HorizontalAlignment="Left" />
+        <RadioButton Content="" Height="27" Margin="99,219,1,0" x:Name="RB3" VerticalAlignment="Top" Checked="RB3Checked" FontFamily="Lucida Handwriting" FontSize="16" HorizontalAlignment="Left" />
+        <RadioButton Content="" Height="27" Margin="99,0,1,158" x:Name="RB2" VerticalAlignment="Bottom" Checked="RB2Checked" FontFamily="Lucida Handwriting" FontSize="16" HorizontalAlignment="Left" />
+        <RadioButton Content="" Margin="99,145,2,0" x:Name="RB1" VerticalAlignment="Top" Checked="RB1Checked" FontFamily="Lucida Handwriting" FontSize="16" HorizontalAlignment="Left" />
+        <Button Content="Next" Height="30" HorizontalAlignment="Left" Margin="41,0,0,0" x:Name="btnNext" VerticalAlignment="Top" Width="81" d:LayoutOverrides="HorizontalAlignment" Grid.Row="1" Click="btnNext_clicked" FontFamily="Lucida Handwriting" FontWeight="Bold" FontSize="16" />
+        <Button Content="Cancel" Height="32" HorizontalAlignment="Left" Margin="271,0,0,0" x:Name="btnCancel" VerticalAlignment="Top" Width="77" Grid.Row="1" FontFamily="Lucida Handwriting" FontSize="16" FontWeight="Bold" />
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\Bin\Debug\ElasticButton.dll
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\Bin\Debug\ElasticButton.pdb
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\Bin\Debug\AppManifest.xaml
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\Bin\Debug\ElasticButton.xap
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\Bin\Debug\ElasticButtonTestPage.html
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\App.g.i.cs
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\MainPage.g.i.cs
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\ElasticButton.g.resources
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\ElasticButton.dll
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\ElasticButton.pdb
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns1-8\04SL-ElasticButton\ElasticButton\obj\Debug\XapCacheFile.xml

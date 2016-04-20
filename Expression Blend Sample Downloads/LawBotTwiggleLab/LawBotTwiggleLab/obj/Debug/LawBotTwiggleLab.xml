@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LawBotTwiggleLab
+</name>
+</assembly>
+<members>
+<member name="M:LawBotTwiggleLab.TwiggleButton.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:LawBotTwiggleLab.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:LawBotTwiggleLab.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:LawBotTwiggleLab.TwiggleButton.ItemTextTopLeft">
+	<summary>
+ Gets or sets the text content of the TopLeft item.
+ </summary>
+	<remarks>String.</remarks>
+</member><member name="P:LawBotTwiggleLab.TwiggleButton.ItemTextTopRight">
+	<summary>
+ Gets or sets the text content of the TopRight item.
+ </summary>
+	<remarks>String.</remarks>
+</member><member name="P:LawBotTwiggleLab.TwiggleButton.ItemTextBottomLeft">
+	<summary>
+ Gets or sets the text content of the BottomLeft item.
+ </summary>
+	<remarks>String.</remarks>
+</member><member name="P:LawBotTwiggleLab.TwiggleButton.ItemTextBottomRight">
+	<summary>
+ Gets or sets the text content of the BottomRight item.
+ </summary>
+	<remarks>String.</remarks>
+</member><member name="P:LawBotTwiggleLab.TwiggleButton.GetSelectedItem">
+	<summary>
+ Gets the value of the currently selected item. 
+ </summary>
+	<value>String</value>
+	<returns>String</returns>
+	<remarks>ReadOnly</remarks>
+</member><member name="P:LawBotTwiggleLab.TwiggleButton.SelectedTwiggleItem">
+	<summary>
+ Gets or sets the selected item, which is selected at the beginning. This is the item that is highlighted visually as selected.
+ </summary>
+	<remarks>String.</remarks>
+</member>
+</members>
+</doc>

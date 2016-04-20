@@ -1,0 +1,230 @@
+﻿<UserControl x:Class="Demo4.ucRagDoll"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="60.25" Height="188" xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper">
+    <Canvas x:Name="LayoutRoot">
+    	<Path Height="32" x:Name="bicep_Copy" Width="11" Data="M10.129179,21.333334 C10.129179,30.169889 9.3137083,32 6,32 C3.7819471,32 2.3307619,27.958815 1.5193132,23.111111 C1.1184803,20.71648 0.76595742,18.66778 0.76595742,15.746032 C0.76595742,13.582245 0.16107057,11.772746 0.45298266,9.8902092 C0.70954019,8.2356739 1.0937448,5.637753 1.5319148,4.3174605 C2.6311967,1.0051079 4.2108579,0 6,0 C7.7328372,0 9.2941036,1.9588845 10.389384,5.0915461 C10.987034,6.8009105 11.445939,8.8597593 11.718267,11.140539 C11.901252,12.673059 10.129179,19.639111 10.129179,21.333334 z" Stretch="Fill" Stroke="{x:Null}" Canvas.Left="23.578" Canvas.Top="48">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081000000238418579" Y="-0.15299999713897705"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" AngleSpringConstant="10000" AngleSpringEnabled="True" BodyOne="body" BodyTwo="bicep_Copy" CollisionGroup="1" Canvas.Left="18.75" Canvas.Top="42.75"/>
+    	<Path Height="9" x:Name="forearm_Copy" Width="29" Data="M29.073212,2.7432117 C29.073212,3.2856824 28.542042,6.9209547 27.408796,7.3600368 C26.991505,7.5217195 25.649595,7.4447851 24.128416,6.5183554 C23.085674,5.8833036 21.018002,5.1076684 20.595701,5.1931291 C18.197163,5.6785207 16.999668,6 13.5,6 C10.152593,6 5.639451,6.6983118 3.2803738,6.25 C0.38496312,5.6997652 0,3.9129858 0,3 C0,2.0275438 -0.04348997,-0.95855784 3.1841302,-1.506737 C5.4556742,-1.892536 10.420209,0 13.5,0 C16.945917,0 17.200867,0.72109908 19.586353,1.1932799 C20.482523,1.3706669 26.846962,-0.51948965 27.504679,-0.29519442 C28.88427,0.17527589 29.073212,2.1397941 29.073212,2.7432117 z" Stretch="Fill" Stroke="{x:Null}" Canvas.Left="26.595" Canvas.Top="73.748">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081000000238418579" Y="-0.15299999713897705"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" AngleSpringConstant="10000" AngleSpringEnabled="True" BodyOne="bicep_Copy" BodyTwo="forearm_Copy" CollisionGroup="1" Canvas.Left="18.75" Canvas.Top="67"/>
+
+    	<Path Height="36" Width="15" Data="M15,18 C15,27.941126 11.642136,36 7.5,36 C3.3578644,36 0,27.941126 0,18 C0,14.88562 0.56100976,7.3440218 1.1409996,4.7890272 C2.4123421,-0.81154156 4.6555223,0 7.5,0 C11.642136,0 15,8.0588741 15,18 z" Stretch="Fill" Stroke="{x:Null}" x:Name="thigh_Copy" Canvas.Left="23.5" Canvas.Top="87.267">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Path Height="35" Width="11" Data="M8.2757912,16.674999 C8.2757912,26.339983 7.7614236,35 5,35 C4.003592,35 3.0752587,33.979889 2.2956045,32.221779 C0.91454077,29.107504 0,23.677557 0,17.5 C0,7.8350167 2.2385762,0 5,0 C5.9114943,0 10.643226,-0.50077647 11.379084,0.9905678 C11.718602,1.6786613 10.751291,4.5097737 11.034225,5.4481606 C11.22564,6.0830178 8.8045473,8.3471251 8.9654121,9.080266 C9.6126928,12.030244 8.2757912,12.668023 8.2757912,16.674999 z" Stretch="Fill" Stroke="{x:Null}" x:Name="calf_Copy" Canvas.Left="25.635" Canvas.Top="118.955">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Path Height="10" Width="20" Data="M29.333334,158 L48.333668,158.99998 C48.333668,158.99998 50.334038,154.00005 49.000683,154.33337 C47.667328,154.6667 38.667297,151.33401 37.333923,150.33411 C36.000549,149.3342 31.270733,149.33456 31.270733,149.33456 C31.270733,149.33456 28.792322,157.33328 29.333334,158 z" Stretch="Fill" Stroke="{x:Null}" x:Name="foot_Copy" Canvas.Left="25.96" Canvas.Top="147.668">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" BodyOne="body" BodyTwo="thigh" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000" Canvas.Left="19.833" Canvas.Top="81.166"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" BodyOne="thigh" BodyTwo="calf" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000" Canvas.Left="21.333" Canvas.Top="109.666"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" BodyOne="calf" BodyTwo="foot" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000" Canvas.Left="19.5" Canvas.Top="142"/>
+    	<Path Height="50.699" Width="25.554" Canvas.Left="16.006" Canvas.Top="45.412" Data="M24.000679,28.555635 C24.000679,42.638897 20.955845,51 13.5,51 C9.9137077,51 3.6042371,47.864731 1.1867113,43.555653 C0.10882612,41.634392 0.28370038,39.640373 1.5507874,37.377472 C3.5041337,33.888977 1.4880528,26.177792 1.4880528,21.888962 C1.4880528,16.638668 0.56029254,9.055707 2.000335,4.9999924 C4.423028,-1.8232465 10.988946,0.79430676 15.665223,0.79430676 C20.386013,0.79430676 23.254677,4.9561372 25.667688,11.888949 C27.065699,15.905568 24.000679,23.389421 24.000679,28.555635 z" Stretch="Fill" Stroke="{x:Null}" x:Name="body">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Rectangle Height="13.667" Width="9" Canvas.Left="23.333" Canvas.Top="37" Stroke="{x:Null}" x:Name="neck">
+    		<Rectangle.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Rectangle.Fill>
+    	</Rectangle>
+    	<Path Height="36.374" Width="15.333" Canvas.Left="21.333" Canvas.Top="87.08" Data="M15,18 C15,27.941126 11.642136,36 7.5,36 C3.3578644,36 0,27.941126 0,18 C0,14.88562 0.56100976,7.3440218 1.1409996,4.7890272 C2.4123421,-0.81154156 4.6555223,0 7.5,0 C11.642136,0 15,8.0588741 15,18 z" Stretch="Fill" Stroke="{x:Null}" x:Name="thigh">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Path Height="35.415" Width="11.071" Canvas.Left="23.599" Canvas.Top="118.748" Data="M8.2757912,16.674999 C8.2757912,26.339983 7.7614236,35 5,35 C4.003592,35 3.0752587,33.979889 2.2956045,32.221779 C0.91454077,29.107504 0,23.677557 0,17.5 C0,7.8350167 2.2385762,0 5,0 C5.9114943,0 10.643226,-0.50077647 11.379084,0.9905678 C11.718602,1.6786613 10.751291,4.5097737 11.034225,5.4481606 C11.22564,6.0830178 8.8045473,8.3471251 8.9654121,9.080266 C9.6126928,12.030244 8.2757912,12.668023 8.2757912,16.674999 z" Stretch="Fill" Stroke="{x:Null}" x:Name="calf">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Path Height="9.667" Width="20.202" Canvas.Left="23.859" Canvas.Top="147.668" Data="M29.333334,158 L48.333668,158.99998 C48.333668,158.99998 50.334038,154.00005 49.000683,154.33337 C47.667328,154.6667 38.667297,151.33401 37.333923,150.33411 C36.000549,149.3342 31.270733,149.33456 31.270733,149.33456 C31.270733,149.33456 28.792322,157.33328 29.333334,158 z" Stretch="Fill" Stroke="{x:Null}" x:Name="foot">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" Canvas.Left="17.833" Canvas.Top="80.666" BodyOne="body" BodyTwo="thigh_Copy" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint Canvas.Left="19.333" Canvas.Top="109.666" BodyOne="thigh_Copy" BodyTwo="calf_Copy" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" Canvas.Left="17.5" Canvas.Top="142" BodyOne="calf_Copy" BodyTwo="foot_Copy" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000"/>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" Canvas.Left="18.333" Canvas.Top="38.666" BodyOne="neck" BodyTwo="body" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000"/>
+
+    	<Path Height="31.5" x:Name="bicep" Width="11.121" Canvas.Left="18.517" Canvas.Top="48" Data="M10.129179,21.333334 C10.129179,30.169889 9.3137083,32 6,32 C3.7819471,32 2.3307619,27.958815 1.5193132,23.111111 C1.1184803,20.71648 0.76595742,18.66778 0.76595742,15.746032 C0.76595742,13.582245 0.16107057,11.772746 0.45298266,9.8902092 C0.70954019,8.2356739 1.0937448,5.637753 1.5319148,4.3174605 C2.6311967,1.0051079 4.2108579,0 6,0 C7.7328372,0 9.2941036,1.9588845 10.389384,5.0915461 C10.987034,6.8009105 11.445939,8.8597593 11.718267,11.140539 C11.901252,12.673059 10.129179,19.639111 10.129179,21.333334 z" Stretch="Fill" Stroke="{x:Null}">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081000000238418579" Y="-0.15299999713897705"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" Canvas.Left="13.75" Canvas.Top="42.5" AngleSpringConstant="10000" AngleSpringEnabled="True" BodyOne="body" BodyTwo="bicep" CollisionGroup="1"/>
+    	<Path Height="8.986" x:Name="forearm" Width="28.804" Canvas.Left="21.595" Canvas.Top="73.748" Data="M29.073212,2.7432117 C29.073212,3.2856824 28.542042,6.9209547 27.408796,7.3600368 C26.991505,7.5217195 25.649595,7.4447851 24.128416,6.5183554 C23.085674,5.8833036 21.018002,5.1076684 20.595701,5.1931291 C18.197163,5.6785207 16.999668,6 13.5,6 C10.152593,6 5.639451,6.6983118 3.2803738,6.25 C0.38496312,5.6997652 0,3.9129858 0,3 C0,2.0275438 -0.04348997,-0.95855784 3.1841302,-1.506737 C5.4556742,-1.892536 10.420209,0 13.5,0 C16.945917,0 17.200867,0.72109908 19.586353,1.1932799 C20.482523,1.3706669 26.846962,-0.51948965 27.504679,-0.29519442 C28.88427,0.17527589 29.073212,2.1397941 29.073212,2.7432117 z" Stretch="Fill" Stroke="{x:Null}">
+    		<Path.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081000000238418579" Y="-0.15299999713897705"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Path.Fill>
+    	</Path>
+    	<Spritehand_FarseerHelper:PhysicsJoint  Height="20" Width="20" Canvas.Left="13.75" Canvas.Top="67" AngleSpringConstant="10000" AngleSpringEnabled="True" BodyOne="bicep" BodyTwo="forearm" CollisionGroup="1"/>
+    	<Ellipse Height="21.333" Width="16.667" Canvas.Left="19.667" Canvas.Top="22.333" Stroke="{x:Null}" x:Name="head">
+    		<Ellipse.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.081" Y="-0.153"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFF8E9"/>
+    				<GradientStop Color="#FFC1A977" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Ellipse.Fill>
+    	</Ellipse>
+    	<Spritehand_FarseerHelper:PhysicsJoint Height="20" Width="20" Canvas.Left="18" Canvas.Top="30.667" BodyOne="head" BodyTwo="neck" CollisionGroup="1" AngleSpringEnabled="True" AngleSpringConstant="10000"/>
+
+    </Canvas>
+</UserControl>

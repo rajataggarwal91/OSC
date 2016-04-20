@@ -1,0 +1,10 @@
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Demo.Web\bin\RotatingMenu.Demo.Web.dll
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Demo.Web\bin\RotatingMenu.Demo.Web.pdb
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Demo.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Demo.Web\obj\Debug\RotatingMenu.Demo.Web.dll
+C:\Users\Frederik\Documents\Blog\RotatingMenu\RotatingMenu.Demo.Web\obj\Debug\RotatingMenu.Demo.Web.pdb
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Demo.Web\bin\RotatingMenu.Demo.Web.dll
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Demo.Web\bin\RotatingMenu.Demo.Web.pdb
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Demo.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Demo.Web\obj\Debug\RotatingMenu.Demo.Web.dll
+E:\Expression Blend Sample Downloads\RotatingMenu\RotatingMenu.Demo.Web\obj\Debug\RotatingMenu.Demo.Web.pdb

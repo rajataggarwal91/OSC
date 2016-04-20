@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Demo5.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1020" Height="760" 
+	xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper" 
+	xmlns:Demo5="clr-namespace:Demo5">
+    <Canvas x:Name="LayoutRoot" Width="1020" Height="760" Background="White">
+
+    	<Spritehand_FarseerHelper:PhysicsController Height="42" x:Name="physicsController1" DebugMode="False"  
+													Initialized="physicsController1_Initialized" 
+													FrictionDefault="0" Width="60" 
+													Canvas.Left="54" Canvas.Top="90" MousePickEnabled="True" 
+													TimerLoop="physicsController1_TimerLoop"/>
+    	<Spritehand_FarseerHelper:CameraController x:Name="cameraController1"  Height="12" Width="30" Canvas.Left="42" Canvas.Top="126" Target="body" ZoomSpeed="0.005" ZoomPercentage="100"/>
+    	<Demo5:ucRagDoll Canvas.Left="167" Canvas.Top="111" x:Name="ragdoll" Width="65.25" Height="171"/>
+    	<Demo5:ucObstacle Height="152" Width="148" Canvas.Left="112" Canvas.Top="388" x:Name="obstacle"/>
+
+    </Canvas>
+</UserControl>

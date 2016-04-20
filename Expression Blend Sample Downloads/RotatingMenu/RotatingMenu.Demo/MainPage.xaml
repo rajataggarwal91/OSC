@@ -1,0 +1,32 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" xmlns:RotatingMenu_Control="clr-namespace:RotatingMenu.Control;assembly=RotatingMenu.Control" x:Class="RotatingMenu.Demo.MainPage"
+    d:DesignWidth="640" d:DesignHeight="480">
+  <Grid x:Name="LayoutRoot">
+  	<Grid.Background>
+  		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+  			<GradientStop Color="#FFABABAB" Offset="0.5"/>
+  			<GradientStop Color="White" Offset="1"/>
+  			<GradientStop Color="White" Offset="0"/>
+  		</LinearGradientBrush>
+  	</Grid.Background>
+  	<RotatingMenu_Control:Menu HorizontalAlignment="Center" VerticalAlignment="Center" Radius="300">
+		<RotatingMenu_Control:Menu.MenuItems>
+	  		<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 1" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 2" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 3" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 4" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 5" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 6" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 7" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 8" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 9" Style="{StaticResource MenuItemStylenew}"/>
+			<RotatingMenu_Control:MenuItem Width="160" Height="48" Content="MenuItem 10" Style="{StaticResource MenuItemStylenew}"/>
+		</RotatingMenu_Control:Menu.MenuItems>
+	</RotatingMenu_Control:Menu>
+  	<TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="Rotating Menu" TextWrapping="Wrap" Margin="16,16,0,0" FontSize="18"/>
+  	<HyperlinkButton HorizontalAlignment="Left" VerticalAlignment="Top" Content="By Frederik Duchi" Margin="16,44,0,0" NavigateUri="http://silverlightdotnet.wordpress.com" TargetName="_blank"/>
+  </Grid>
+</UserControl>

@@ -1,0 +1,12 @@
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\Bin\Debug\ContactForm.dll
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\Bin\Debug\ContactForm.pdb
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\Bin\Debug\AppManifest.xaml
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\Bin\Debug\ContactForm.xap
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\Bin\Debug\ContactFormTestPage.html
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\App.g.i.cs
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\MainPage.g.i.cs
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\ContactForm.g.resources
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\ContactForm.dll
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\ContactForm.pdb
+C:\Users\LPowers.REDMOND\Documents\~Team\Special Projects\Patterns Library\Patterns19-28\28SL-ContactForm\ContactForm\obj\Debug\XapCacheFile.xml

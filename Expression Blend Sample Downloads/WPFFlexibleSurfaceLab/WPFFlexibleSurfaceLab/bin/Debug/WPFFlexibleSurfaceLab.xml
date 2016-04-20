@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WPFFlexibleSurfaceLab
+</name>
+</assembly>
+<members>
+<member name="M:WPFFlexibleSurfaceLab.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:WPFFlexibleSurfaceLab.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:WPFFlexibleSurfaceLab.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:WPFFlexibleSurfaceLab.App.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:WPFFlexibleSurfaceLab.App">
+	<summary>
+App
+</summary>
+</member>
+</members>
+</doc>

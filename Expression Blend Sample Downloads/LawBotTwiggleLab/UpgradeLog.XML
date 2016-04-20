@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LawBotTwiggleLab">
+</Property><Property Name="Solution File" Value="E:\Expression Blend Sample Downloads\LawBotTwiggleLab\LawBotTwiggleLab.sln">
+</Property><Property Name="User Options File" Value="E:\Expression Blend Sample Downloads\LawBotTwiggleLab\LawBotTwiggleLab.suo">
+</Property><Property Name="Date" Value="Friday, June 11, 2010">
+</Property><Property Name="Time" Value="16:48 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LawBotTwiggleLab.sln" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LawBotTwiggleLab.suo" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab.suo">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\LawBotTwiggleLab.vbproj" Description="Project file successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\LawBotTwiggleLab.vbproj">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\App.xaml.vb" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\App.xaml.vb">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\MainPage.xaml.vb" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\MainPage.xaml.vb">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\My Project\AssemblyInfo.vb" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\TwiggleButton.xaml.vb" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\TwiggleButton.xaml.vb">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\favicon.ico" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\favicon.ico">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\My Project\AppManifest.xml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\My Project\AppManifest.xml">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\App.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\App.xaml">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\MainPage.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\MainPage.xaml">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\TwiggleButton.xaml" Description="File successfully backed up as E:\Expression Blend Sample Downloads\LawBotTwiggleLab\Backup\LawBotTwiggleLab\TwiggleButton.xaml">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\LawBotTwiggleLab.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\LawBotTwiggleLab.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LawBotTwiggleLab.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LawBotTwiggleLab.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LawBotTwiggleLab" Source="LawBotTwiggleLab\LawBotTwiggleLab.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

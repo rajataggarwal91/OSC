@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Demo1.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1024" Height="760" xmlns:Spritehand_FarseerHelper="clr-namespace:Spritehand.FarseerHelper;assembly=Spritehand.FarseerHelper">
+    <Canvas x:Name="LayoutRoot" Background="White">
+    	<Ellipse Height="56" Width="80" Canvas.Left="56" Canvas.Top="32" Stroke="#FF000000" x:Name="ball">
+    		<Ellipse.Fill>
+    			<RadialGradientBrush>
+    				<RadialGradientBrush.RelativeTransform>
+    					<TransformGroup>
+    						<ScaleTransform/>
+    						<SkewTransform/>
+    						<RotateTransform/>
+    						<TranslateTransform X="0.175" Y="-0.108"/>
+    					</TransformGroup>
+    				</RadialGradientBrush.RelativeTransform>
+    				<GradientStop Color="#FFFFFBFB" Offset="0.0040000001899898052"/>
+    				<GradientStop Color="#FFEAEAEA" Offset="1"/>
+    			</RadialGradientBrush>
+    		</Ellipse.Fill>
+    	</Ellipse>
+
+    	<Spritehand_FarseerHelper:PhysicsController x:Name="physicsController1" DebugMode="False" AutoAddCanvasObjects="True" Height="24" Width="32" Canvas.Left="248" Canvas.Top="64" GravityVertical="500" MousePickEnabled="True" />
+   
+        <StackPanel Orientation="Horizontal" Canvas.Top="602" Canvas.Left="16">
+			<TextBlock>Spritehand Physics Helper</TextBlock>
+			<TextBlock Margin="5,0,5,0">|</TextBlock>
+	    	<HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.spritehand.com" NavigateUri="http://www.spritehand.com" TargetName="_blank" />
+			<TextBlock Margin="5,0,5,0">|</TextBlock>
+	    	<HyperlinkButton Canvas.Left="55" Canvas.Top="607" Content="www.andybeaulieu.com" NavigateUri="http://www.andybeaulieu.com" TargetName="_blank" />
+		</StackPanel>
+        
+        <TextBlock Height="56" Width="381" Canvas.Left="621" Canvas.Top="12" Text="This is a very simple demo created with no code. The ground has a PhysicsStaticHolder class applied. You can use the mouse to manipulate the egg (PhysicsController.MousePickEnabled is true)." TextWrapping="Wrap"/>
+        <Path Height="478" Width="994" Canvas.Left="4.5" Canvas.Top="123.5" Stretch="Fill" Stroke="#FF000000" Data="M7,127 C7,127 111,224 120,256 C129,288 157,360 170,368 C183,376 315,424 315,424 C315,424 468,426 477,423 C486,420 615,395.00003 626,405.00003 C637,415.00003 784,448.00003 804,439.00003 C824,430.00003 906,370.00031 909,364.00031 C912,358.00031 997,123.99999 997,123.99999 L998,600.00061 L5,601.00061 z" x:Name="ground">
+        	<Path.Fill>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FF3DA145"/>
+        			<GradientStop Color="#FF093D0D" Offset="1"/>
+        		</LinearGradientBrush>
+        	</Path.Fill>
+        </Path>
+    	<Spritehand_FarseerHelper:PhysicsStaticHolder Canvas.Left="460" Canvas.Top="485" Body="ground"/>
+
+    </Canvas>
+</UserControl>

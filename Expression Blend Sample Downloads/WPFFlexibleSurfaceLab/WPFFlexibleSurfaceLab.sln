@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WPFFlexibleSurfaceLab", "WPFFlexibleSurfaceLab\WPFFlexibleSurfaceLab.vbproj", "{b34dd620-42c5-4754-9056-b1b92b215b7b}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B34DD620-42C5-4754-9056-B1B92B215B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34DD620-42C5-4754-9056-B1B92B215B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34DD620-42C5-4754-9056-B1B92B215B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34DD620-42C5-4754-9056-B1B92B215B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

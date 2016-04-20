@@ -1,0 +1,96 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:Spritehand_PhysicsBehaviors="clr-namespace:Spritehand.PhysicsBehaviors;assembly=Spritehand.PhysicsBehaviors" x:Class="DemoBehaviors3.ucTruck" 
+    Width="210" Height="140" mc:Ignorable="d">
+    <Canvas x:Name="LayoutRoot" Height="140" Margin="0,0,191,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment" Width="210">
+
+    	<Canvas Height="78.667" x:Name="cnvBody" Width="197" Canvas.Left="8" Canvas.Top="8">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsObjectBehavior CollisionGroup="1"/>
+    			<Spritehand_PhysicsBehaviors:PhysicsCameraBehavior/>
+    		</i:Interaction.Behaviors>
+    		<Path Height="79" Width="196" Canvas.Left="1.167" Canvas.Top="-1.331" Data="M84,0.5 L122,1.9999999 L135.5,30.000004 C135.5,30.000004 153.85963,33.320366 168.97168,36.420898 C175.0166,37.661133 180.54199,38.866211 184.16504,39.80957 C185.97656,40.28125 187.3125,40.6875 188,41 C188.6875,41.3125 189.22656,41.945313 189.64355,42.813477 C191.31152,46.286133 191.02637,53.524414 190.47559,59.09082 C190.2002,61.874023 189.8584,64.239258 189.66113,65.506836 C189.5625,66.140625 189.5,66.5 189.5,66.5 L195.5,67 L195,78.5 L178.82924,78.333717 L178.68288,76.881882 C176.9778,68.549385 172.03419,66.896622 165.22452,62.296093 C161.81967,59.995838 157.94838,58.333652 153.78212,57.481121 C151.69901,57.054852 149.54214,56.830994 147.33301,56.830994 C138.49643,56.830994 130.49648,60.412704 124.70559,66.203575 C121.81017,69.098999 119.46702,72.546715 117.84772,76.375153 C117.03809,78.28936 116.4094,74.798752 115.98313,76.881882 L115.90201,77.686653 L79.229172,77.309555 L78.318283,76.875153 C75.079697,69.218269 68.945732,63.084297 61.288841,59.845715 C57.460426,58.226429 53.251282,57.330994 48.833,57.330994 C39.996452,57.330994 31.996443,60.912724 26.205584,66.703575 C23.31016,69.599007 20.96701,73.046722 19.347719,76.875153 L18.63026,76.686432 L0.5,76.5 L0.5,34.5 L82,31.500004 z" Stretch="Fill" Stroke="#FF000000">
+    			<Path.Fill>
+    				<LinearGradientBrush EndPoint="0.702,0.504" StartPoint="0.298,0.496">
+    					<GradientStop Color="#FF1C3468"/>
+    					<GradientStop Color="#FF1C408F" Offset="1"/>
+    					<GradientStop Color="#FF24458C" Offset="0.34799998998641968"/>
+    					<GradientStop Color="#FF4F6FB5" Offset="0.62900000810623169"/>
+    				</LinearGradientBrush>
+    			</Path.Fill>
+    		</Path>
+    		<Path Height="27.5" Width="42" Canvas.Left="88.667" Canvas.Top="2.169" Data="M81.167,-171.33099 L81.167,-146.33099 L122.167,-144.83099 L111.167,-170.83099 z" Stretch="Fill" Stroke="#FF000000">
+    			<Path.Fill>
+    				<LinearGradientBrush EndPoint="0.811,0.681" StartPoint="0.189,0.319">
+    					<GradientStop Color="#FFFFFFFF"/>
+    					<GradientStop Color="#FFFFFFFF" Offset="1"/>
+    					<GradientStop Color="#FFCFFFFF" Offset="0.49099999666213989"/>
+    				</LinearGradientBrush>
+    			</Path.Fill>
+    		</Path>
+    		<Path Height="11.501" Width="6.379" Canvas.Left="186.045" Canvas.Top="49.155" Data="M183.16699,-124.33099 C183.16699,-124.33099 177.66699,-124.83099 178.66699,-119.83099 C179.66699,-114.83099 180.1673,-112.83116 182.66704,-114.33112 C185.16679,-115.83109 183.16699,-124.33099 183.16699,-124.33099 z" Fill="#FFFFFFFF" Stretch="Fill" Stroke="#FF000000"/>
+    	</Canvas>
+    	<Canvas Height="60" x:Name="cnvWheelBack" Width="60" Canvas.Left="27" Canvas.Top="72">
+    		<i:Interaction.Triggers>
+    			<Spritehand_PhysicsBehaviors:PhysicsKeyTrigger Key="Right">
+    				<Spritehand_PhysicsBehaviors:PhysicsApplyTorqueBehavior TorqueValue="10000"/>
+    			</Spritehand_PhysicsBehaviors:PhysicsKeyTrigger>
+    			<Spritehand_PhysicsBehaviors:PhysicsKeyTrigger Key="Left">
+    				<Spritehand_PhysicsBehaviors:PhysicsApplyTorqueBehavior TorqueValue="-10000"/>
+    			</Spritehand_PhysicsBehaviors:PhysicsKeyTrigger>
+    		</i:Interaction.Triggers>
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsObjectBehavior/>
+    		</i:Interaction.Behaviors>
+    		<Ellipse x:Name="ellipse" Height="60" Width="60" Canvas.Left="0" Canvas.Top="0" Stroke="#FF000000">
+    			<Ellipse.Fill>
+    				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    					<GradientStop Color="#FF000000"/>
+    					<GradientStop Color="#FF4F4949" Offset="1"/>
+    				</LinearGradientBrush>
+    			</Ellipse.Fill>
+    		</Ellipse>
+    		<Ellipse Height="40" Width="40" Canvas.Left="10" Canvas.Top="10" Stroke="#FF000000">
+    			<Ellipse.Fill>
+    				<RadialGradientBrush>
+    					<GradientStop Color="#FF000000"/>
+    					<GradientStop Color="#FFFFFFFF" Offset="0.545"/>
+    				</RadialGradientBrush>
+    			</Ellipse.Fill>
+    		</Ellipse>
+    	</Canvas>
+    	<Canvas Height="60" x:Name="cnvWheelFront" Width="60" Canvas.Left="127" Canvas.Top="72">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsObjectBehavior/>
+    		</i:Interaction.Behaviors>
+    		<Ellipse Height="60" Width="60" Canvas.Left="0" Canvas.Top="0" Stroke="#FF000000">
+    			<Ellipse.Fill>
+    				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    					<GradientStop Color="#FF000000"/>
+    					<GradientStop Color="#FF4F4D4D" Offset="1"/>
+    				</LinearGradientBrush>
+    			</Ellipse.Fill>
+    		</Ellipse>
+    		<Ellipse Height="40" Width="40" Canvas.Left="10" Canvas.Top="10" Stroke="#FF000000">
+    			<Ellipse.Fill>
+    				<RadialGradientBrush>
+    					<GradientStop Color="#FF000000"/>
+    					<GradientStop Color="#FFFFFFFF" Offset="0.562"/>
+    				</RadialGradientBrush>
+    			</Ellipse.Fill>
+    		</Ellipse>
+    	</Canvas>
+    	<Ellipse x:Name="jointBack" Fill="#FFDEE64E" Stroke="Black" Height="20" Width="20" Canvas.Left="47" Canvas.Top="92">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsJointBehavior BodyOne="cnvBody" BodyTwo="cnvWheelBack" CollisionGroup="1"/>
+    		</i:Interaction.Behaviors>
+    	</Ellipse>
+    	<Ellipse x:Name="jointFront" Fill="#FFDEE64E" Stroke="Black" Height="20" Width="20" Canvas.Left="147" Canvas.Top="92">
+    		<i:Interaction.Behaviors>
+    			<Spritehand_PhysicsBehaviors:PhysicsJointBehavior BodyOne="cnvBody" BodyTwo="cnvWheelFront" CollisionGroup="1"/>
+    		</i:Interaction.Behaviors>
+    	</Ellipse>
+
+    </Canvas>
+</UserControl>

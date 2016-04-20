@@ -1,0 +1,14 @@
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\bin\Debug\DataTemplates.exe
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\bin\Debug\DataTemplates.pdb
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\Window1.baml
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\Window1.g.cs
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\App.g.cs
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates_MarkupCompile.cache
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates.g.resources
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates.Properties.Resources.resources
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates.csproj.GenerateResource.Cache
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates.exe
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates.pdb
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\moc.ADS\Projects\wpftutorial.net\Samples\DataTemplates\DataTemplates\obj\Debug\DataTemplates_MarkupCompile.lref
